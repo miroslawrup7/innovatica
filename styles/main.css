@@ -100,19 +100,19 @@ main section svg {
     width: 2560px;
 }
 
-footer {
-    width: 100%;
-}
-
-footer .quick-contact {
+.quick-contact {
     height: 270px;
     width: 100%;
 }
 
-footer .quick-contact svg {
+.quick-contact svg {
     position: absolute;
     height: 270px;
     width: 2560px;
+}
+
+footer {
+    width: 100%;
 }
 
 footer .contact {
