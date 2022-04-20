@@ -10,66 +10,115 @@
     background-color: transparent;
 }
 
-.wrapper {
-    /* border: solid 1px blue; */
-    width: 1600px;
-    min-height: 100vh;
+.container {
+    width: 2560px;
+    min-height: 100%;
     margin: 0 auto;
+    box-shadow: 2px 2px 15px rgba(0,0,0,0.7);
+    /* border: solid 1px yellow; */
 }
 
 header {
-    height: 120px;
+    height: 190px;
     width: 100%;
     background-color: black;
 }
 
-main {
-
-}
-
 main section {
     /* border: solid 1px green; */
-    height: 520px;
+    height: 820px;
     width: 100%;
     position: relative
 }
 
 main section.one {
     background-image: url("../images/001.jpg");
-    background-position: right;
     background-repeat: no-repeat;
-    background-size: 1050px;
-    background-position-y: 0px;
+    background-position: top right;
+    background-size: 60%;
+    background-color: white;
 }
 
 main section.two {
     background-image: url("../images/002.jpg");
     background-repeat: no-repeat;
-    background-size: 1150px;
-    background-position-y: center;
-    background-position-x: -70px;
+    background-position: center;
+    background-size: 70%;
+    background-position-x: -100px;
+    background-color: black;
+}
+
+main section.three {
+    background-image: url("../images/003.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 65%;
+    background-color: white;
+    background-position-x: 1100px;
+}
+
+main section.four {
+    background-image: url("../images/004.jpg");
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-size: 60%;
+    background-position-x: -50px;
+    background-position-y: -150px;
+    background-color: black;
+}
+
+main section.one svg {
+    fill:white;
+    filter: drop-shadow(2px 2px 20px rgba(0,0,0,0.7));
+    z-index: 2;
+}
+
+main section.two svg {
+    fill:black;
+    filter: drop-shadow(2px 2px 20px rgba(0,0,0,0.7));
+}
+
+main section.three svg {
+    fill:white;
+    filter: drop-shadow(2px 2px 20px rgba(0,0,0,0.7));
+    z-index: 2;
+}
+
+main section.four svg.left {
+    fill:white;
+    filter: drop-shadow(2px 2px 20px rgba(0,0,0,0.7));
+}
+
+main section.four svg.right {
+    fill:black;
+    filter: drop-shadow(2px 2px 20px rgba(0,0,0,0.7));
 }
 
 main section svg {
     position: absolute;
+    height: 820px;
+    width: 2560px;
 }
 
 footer {
-    border: solid 1px pink;
-    height: 480x;
     width: 100%;
 }
 
 footer .quick-contact {
-    border: solid 1px blue;
-    height: 200px;
+    height: 270px;
     width: 100%;
+}
+
+footer .quick-contact svg {
+    position: absolute;
+    height: 270px;
+    width: 2560px;
 }
 
 footer .contact {
-    border: solid 1px brown;
-    height: 280px;
+    background-color: white;
+    height: 450px;
     width: 100%;
+    margin-top: 50px;
+    border-top: 4px solid black;
 }
-
-
