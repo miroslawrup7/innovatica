@@ -21,7 +21,6 @@
 
 .container {
     width: 2560px;
-    min-height: 100vh;
     margin: 0 auto;
 }
 
@@ -30,7 +29,6 @@ header {
     width: 100%;
     background-color: black;
     position: relative;
-    
     font-weight: 400;
 }
 
@@ -44,7 +42,6 @@ header {
     transform: translateX(-50%);
     display: flex;
     align-items: center;
-    /* border: solid 1px red; */
 }
 
 header .content {
@@ -146,45 +143,67 @@ main section.four svg:nth-of-type(2) {
     filter: drop-shadow(2px 2px 20px rgba(0,0,0,0.7));
 }
 
-main .one .box {
+main .box {
     width: 800px;
     height: 100%;
 }
 
-main .one .box .title {
+main .box .title {
     border-bottom: 5px solid black;
-    margin-top: 190px;
+    margin-top: 160px;
     margin-left: 130px;
     padding-bottom: 40px; 
 }
 
-main .one .box .title h1 {
-    font-weight: 400;
+main .box .title h1 {
+    font-weight: 300;
     font-size: 86px;
     text-transform: uppercase;
     line-height: 80px;
 }
 
-main .one .box .title span {
+main .box .title span {
     line-height: 80px;
     font-weight: 600;
 }
 
-main .one .box p {
+main .box p {
     margin: 50px 0 50px 130px;
     font-size: 24px;
-    font-weight: 900;
+    font-weight: 700;
 }
 
-main .one .box button {
+main .box button {
     margin-left: 130px;
     font-size: 24px;
     font-weight: 600;
-    height: 65px;
+    height: 68px;
     background-color: black;
     color: white;
     width: 270px;
 }
+
+main .box.white {
+    color: white;
+ }
+ 
+ main .box.white .title {
+     border-bottom: 5px solid white;
+ }
+ 
+ main .content.right {
+     justify-content: end;
+ }
+ 
+ main .box.white p {
+     font-weight: 500;
+ }
+ 
+ main .box.white button {
+     background-color: white;
+     color: black;
+     font-weight: 800;
+ }
 
 main section svg {
     position: absolute;
@@ -205,10 +224,106 @@ main section svg {
     right: 650px;
 }
 
-footer .contact {
+.quick-contact .quick-contact_box {
+    height: 100%;
+    width: 1300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.quick-contact_box .facebook {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
     background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quick-contact_box .facebook img {
+    height: 60%;
+}
+
+.quick-contact_box .tel {
+   color:white;
+   height: 130px;
+   width: 550px;
+   border-left: 6px solid white;
+   padding-left: 30px;
+}
+
+.quick-contact_box .tel p:nth-of-type(1) {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.quick-contact_box .tel p:nth-of-type(2) {
+    font-size: 54px;
+    font-weight: 600;
+}
+
+.quick-contact_box .tel span {
+    font-weight: 200;
+}
+
+footer {
     height: 450px;
-    width: 100%;
     margin-top: 50px;
+    width: 100%;
+    position: relative;
+    font-weight: 400;
     border-top: 4px solid black;
+}
+
+footer .content {
+    justify-content: space-around;
+}
+
+.footer-left-box {
+    
+    width: 1150px;
+    height: 230px;
+    display: flex;
+}
+.footer-left-box .footer-logo {
+  padding-right: 30px;
+}
+
+.footer-left-box .footer-logo img {
+    width: 500px;
+}
+
+.footer-left-box .company-box {
+    font-size: 28px;
+    font-weight: 400;
+    border-left: 5px solid black;
+    padding: 0 30px;
+}
+
+.footer-left-box .address-box {
+    font-size: 28px;
+    font-weight: 400;
+  
+}
+
+.footer-right-box {
+    width: 540px;
+}
+
+.footer-right-box ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 230px;
+}
+
+.footer-right-box li {
+    display: inline-block;
+    border-left: 4px solid black;
+    margin: 8px 0;
+    font-size: 28px;
+    font-weight: 600;
+    padding-left: 30px;
 }
