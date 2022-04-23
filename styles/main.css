@@ -253,7 +253,6 @@ header .menu ul a {
     right: 820px;
     width: 4820px;
     filter: drop-shadow(2px 2px 20px rgba(0,0,0,0.7));
-    /* z-index:1; */
 }
 
 .about section.one svg:nth-of-type(2) {
@@ -482,7 +481,6 @@ header .menu ul a {
     fill:white;
     left: 1300px;
     width: 4980px;
- 
     z-index: 1;
 }
 
@@ -633,6 +631,231 @@ header .menu ul a {
     background-image: linear-gradient(to right, rgba(255,255,255,1) 0%,  rgba(255,255,255,1) 40%, rgba(255,255,255,0.7) 50%, rgba(255,255,255,0) 80%);
 }
 
+/* main contact */
+
+.contact section {
+    height: 820px;
+    width: 100%;
+    position: relative
+}
+
+.contact section.one {
+    background-image: url("../images/015.jpg");
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position-x: 780px;
+    background-position-y: 0px;
+    height: 680px;
+}
+
+.contact .one .overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,0.3) 70%,rgba(255,255,255,0.9) 100%);
+}
+
+.contact section.three {
+    display: flex;
+}
+
+.contact section.one svg:nth-of-type(1) {
+    fill:white;
+    right: 1100px;
+    width: 4680px;
+}
+
+.contact section.one svg:nth-of-type(2) {
+    fill:white;
+    left: 2080px;
+    width: 4680px;
+}
+
+.contact .one .box p {
+    padding-right: 100px;
+}
+
+.contact section.two svg:nth-of-type(1){
+    fill:white;
+    right: 1490px;
+    width: 5080px;
+}
+
+.contact section.two svg:nth-of-type(2){
+    fill:black;
+    right: 2540px;
+    width: 480px;
+}
+
+.contact section.two svg:nth-of-type(3) {
+    fill:white;
+    left: 740px;
+    width: 5080px;
+    filter: drop-shadow(2px 2px 20px rgba(0,0,0,0.7));
+}
+
+.contact section.two {
+    height: 580px;
+}
+
+.contact section.two svg {
+    height: 1080px; 
+}
+
+.contact section.two img {
+    z-index: 3;
+    position: absolute;
+    bottom: 50px;
+    width: 1000px;
+    left: 370px;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.4);
+}
+
+.contact section.three{
+    height: 480px;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+}
+
+.contact section.two .images-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.contact section.two .circle-image {
+    overflow: hidden;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 20px rgba(0,0,0,0.7);
+    margin: 20px;
+    flex-shrink: 0;
+}
+
+.contact section.two .circle-image.left {
+    left: 1510px;
+}
+
+.contact section.two .circle-image.right {
+    left: 1860px;
+}
+
+.contact section.two .circle-image.left img {
+    width: 450px;
+    margin-left: 0;
+    margin-top: 0px;
+    z-index: 0;
+    position: static;
+}
+
+.contact section.two .circle-image.right img {
+    width: 450px;
+    margin-left: -20px;
+    margin-top: 0px;
+    z-index: 0;
+    position: static;
+}
+
+.contact section.two .box {
+    width: 720px;
+    margin-bottom: 140px;
+    border-left: none;
+    padding-left: 0;
+  }
+
+.contact .three .box {
+    width: 50%;
+    padding-right: 200px;
+    margin-top: 15px;
+}
+
+.contact section.two .box p {
+    border-left: 4px solid black;
+    padding-left: 60px;
+}
+
+.contact .one .content {
+    align-items: center;
+}
+
+.contact .three.content {
+    align-items: flex-start;
+}
+
+.contact .content.right {
+    justify-content: end;
+    align-items: center;
+}
+
+.contact .two .content.right {
+    align-items: flex-end;
+    margin-bottom: 200px;
+}
+
+.contact section.four {
+    height: 480px;
+    width: 100%;
+    position: relative;
+}
+
+.contact .four .box {
+    margin-top: 0;
+}
+
+.contact .four .box p {
+    font-size: 32px;
+    font-weight: 600;
+    padding: 3px 0;
+}
+
+.contact .box {
+    width: 720px;
+    margin-top: -50px;
+    border-left: 4px solid black;
+    padding-left: 60px;
+}
+
+.contact .box.white {
+    color: white;
+    border-left: 4px solid white;
+}
+
+.contact .box.y-center {
+    margin-top: 100px;
+}
+
+.contact .box  h1 {
+    font-weight: 700;
+    font-size: 54px;
+    text-transform: uppercase;
+    line-height: 54px;
+    margin-bottom: 30px;
+}
+
+.contact .box p {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.contact .box a {
+    display: inline-block;
+    margin-top: 50px;
+    font-size: 40px;
+    font-weight: 800;
+    color: black;
+  }
+
+.contact .two .box p {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.contact section svg {
+    position: absolute;
+    height: 820px;
+}
 
 /* quick-contact */
 
