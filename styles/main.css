@@ -14,15 +14,7 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.container-outer {
-    width: 100%;
-    overflow: hidden;
-}
-
-.container {
-    width: 2560px;
-    margin: 0 auto;
-}
+/* header */
 
 header {
     height: 190px;
@@ -72,15 +64,34 @@ header .menu ul {
     list-style: none;
     justify-content: space-around;
     align-items: center;
+    color: white;
 }
 
-main section {
+header .menu ul a {
+    color: white;
+}
+
+/* main */
+
+.container-outer {
+    width: 100%;
+    overflow: hidden;
+}
+
+.container {
+    width: 2560px;
+    margin: 0 auto;
+}
+
+/* main home */
+
+.home section {
     height: 820px;
     width: 100%;
     position: relative
 }
 
-main section.one {
+.home section.one {
     background-image: url("../images/001.jpg");
     background-repeat: no-repeat;
     background-position: top;
@@ -88,7 +99,7 @@ main section.one {
     background-position-x: 900px;
 }
 
-main section.two {
+.home section.two {
     background-image: url("../images/002.jpg");
     background-repeat: no-repeat;
     background-position: center;
@@ -96,7 +107,7 @@ main section.two {
     background-position-x: 0px;
 }
 
-main section.three {
+.home section.three {
     background-image: url("../images/003.jpg");
     background-repeat: no-repeat;
     background-position: center;
@@ -104,7 +115,7 @@ main section.three {
     background-position-x: 900px;
 }
 
-main section.four {
+.home section.four {
     background-image: url("../images/004.jpg");
     background-repeat: no-repeat;
     background-size: 70%;
@@ -112,8 +123,8 @@ main section.four {
     background-position-y: -300px;
 }
 
-main section.one svg:nth-of-type(1),
-main section.three svg:nth-of-type(1) {
+.home section.one svg:nth-of-type(1),
+.home section.three svg:nth-of-type(1) {
     fill:white;
     right: 820px;
     width: 4820px;
@@ -121,59 +132,59 @@ main section.three svg:nth-of-type(1) {
     z-index:1;
 }
 
-main section.one svg:nth-of-type(2),
-main section.three svg:nth-of-type(2) {
+.home section.one svg:nth-of-type(2),
+.home section.three svg:nth-of-type(2) {
     fill:white;
     left: 1740px;
     width: 4820px;
 }
 
-main section.two svg:nth-of-type(1),
-main section.four svg:nth-of-type(1) {
+.home section.two svg:nth-of-type(1),
+.home section.four svg:nth-of-type(1) {
     fill:white;
     right: 1740px;
     width: 4820px;
 }
 
-main section.two svg:nth-of-type(2),
-main section.four svg:nth-of-type(2) {
+.home section.two svg:nth-of-type(2),
+.home section.four svg:nth-of-type(2) {
     fill:black;
     left: 820px;
     width: 4820px;
     filter: drop-shadow(2px 2px 20px rgba(0,0,0,0.7));
 }
 
-main .box {
+.home .box {
     width: 800px;
     height: 100%;
 }
 
-main .box .title {
+.home .box .title {
     border-bottom: 5px solid black;
     margin-top: 160px;
     margin-left: 130px;
     padding-bottom: 40px; 
 }
 
-main .box .title h1 {
+.home .box .title h1 {
     font-weight: 300;
     font-size: 86px;
     text-transform: uppercase;
     line-height: 80px;
 }
 
-main .box .title span {
+.home .box .title span {
     line-height: 80px;
     font-weight: 600;
 }
 
-main .box p {
+.home .box p {
     margin: 50px 0 50px 130px;
     font-size: 24px;
     font-weight: 700;
 }
 
-main .box button {
+.home .box button {
     margin-left: 130px;
     font-size: 24px;
     font-weight: 600;
@@ -183,32 +194,204 @@ main .box button {
     width: 270px;
 }
 
-main .box.white {
+.home .box.white {
     color: white;
- }
+}
  
- main .box.white .title {
-     border-bottom: 5px solid white;
- }
+.home .box.white .title {
+    border-bottom: 5px solid white;
+}
  
- main .content.right {
-     justify-content: end;
- }
+.home .content.right {
+    justify-content: end;
+}
  
- main .box.white p {
-     font-weight: 500;
- }
+.home .box.white p {
+    font-weight: 500;
+}
  
- main .box.white button {
-     background-color: white;
-     color: black;
-     font-weight: 800;
+.home .box.white button {
+    background-color: white;
+    color: black;
+    font-weight: 800;
  }
 
-main section svg {
+.home section svg {
     position: absolute;
     height: 820px;
 }
+
+/* main about */
+
+.about section {
+    height: 820px;
+    width: 100%;
+    position: relative
+}
+
+.about section.one {
+    background-image: url("../images/005.jpg");
+    background-repeat: no-repeat;
+    background-size: 95%;
+    background-position-x: 670px;
+    background-position-y: -180px;
+}
+
+.about section.two {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,1) 0%,  rgba(0,0,0,0.7) 40%, rgba(255,255,255,0.7) 100%);
+    background-color: black;
+}
+
+.about section.four {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,1) 0%,  rgba(0,0,0,0.7) 40%, rgba(255,255,255,0.7) 100%);
+    background-color: black;
+    z-index: -1;
+}
+
+.about section.one svg:nth-of-type(1) {
+    fill:white;
+    right: 820px;
+    width: 4820px;
+    filter: drop-shadow(2px 2px 20px rgba(0,0,0,0.7));
+    /* z-index:1; */
+}
+
+.about section.one svg:nth-of-type(2) {
+    fill:white;
+    left: 1940px;
+    width: 4820px;
+}
+
+.about section.two svg:nth-of-type(1){
+    fill:white;
+    right: 1740px;
+    width: 4820px;
+}
+
+.about section.two svg:nth-of-type(2) {
+    fill:white;
+    left: 820px;
+    width: 4820px;
+    filter: drop-shadow(2px 2px 20px rgba(0,0,0,0.7));
+}
+
+.about section.two img {
+    z-index: 3;
+    position: absolute;
+    bottom: 0;
+    width: 430px;
+    left: 870px;
+}
+
+.about section.three pattern image {
+    width: 150%;
+}
+
+.about section.three{
+    height: 750px;
+}
+
+.about section.three svg:nth-of-type(1) {
+    fill:white;
+    left: -300px;
+    width: 2300px;
+    filter: drop-shadow(2px 2px 20px rgba(0,0,0,0.7));
+    z-index: 1;
+}
+
+.about section.three svg:nth-of-type(2) {
+    top: 100px;
+    left: 1050px;
+    width: 1520px;
+    filter: drop-shadow(2px 2px 20px rgba(0,0,0,0.7));
+}
+
+.about section.four svg:nth-of-type(1) {
+    fill:white;
+    right: 1650px;
+    width: 4820px;
+    filter: drop-shadow(2px 2px 20px rgba(0,0,0,0.7));
+}
+
+.about section.four svg:nth-of-type(2) {
+    fill:white;
+    left: 900px;
+    width: 4820px;
+    filter: drop-shadow(2px 2px 20px rgba(0,0,0,0.7));
+}
+
+.about section.four .circle-image {
+    /* z-index: 3; */
+    position: absolute;
+    overflow: hidden;
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    left: 870px;
+    box-shadow: 2px 2px 20px rgba(0,0,0,0.7);
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.about section.four .circle-image.left {
+    left: 350px;
+}
+
+.about section.four .circle-image.right {
+    left: 900px;
+}
+
+.about section.four .circle-image.left img {
+    scale: 1.2;
+    margin-left: -30px;
+    margin-top: -30px;
+}
+
+.about section.four .circle-image.right img {
+    scale: 1.2;
+    margin-left: 20px;
+    margin-top: -30px;
+}
+
+.about .content {
+    align-items: center;
+}
+
+.about .content.right {
+    justify-content: end;
+    align-items: center;
+}
+
+.about .box {
+    width: 720px;
+    padding-left: 60px;
+    border-left: 4px solid black;
+    margin-top: -50px;
+}
+
+.about .box.y-center {
+    margin-top: 100px;
+}
+
+.about .box  h1 {
+    font-weight: 700;
+    font-size: 54px;
+    text-transform: uppercase;
+    line-height: 54px;
+    margin-bottom: 30px;
+}
+
+.about .box p {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.about section svg {
+    position: absolute;
+    height: 820px;
+}
+
+/* quick-contact */
 
 .quick-contact {
     height: 270px;
@@ -268,6 +451,8 @@ main section svg {
     font-weight: 200;
 }
 
+/* footer */
+
 footer {
     height: 450px;
     margin-top: 50px;
@@ -282,13 +467,13 @@ footer .content {
 }
 
 .footer-left-box {
-    
     width: 1150px;
     height: 230px;
     display: flex;
 }
+
 .footer-left-box .footer-logo {
-  padding-right: 30px;
+  padding-right: 60px;
 }
 
 .footer-left-box .footer-logo img {
@@ -302,10 +487,14 @@ footer .content {
     padding: 0 30px;
 }
 
+.footer-left-box .company-box p,
+.footer-left-box .address-box p {
+    line-height: 1.5em;
+}
+
 .footer-left-box .address-box {
     font-size: 28px;
     font-weight: 400;
-  
 }
 
 .footer-right-box {
