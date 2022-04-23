@@ -321,13 +321,11 @@ header .menu ul a {
 }
 
 .about section.four .circle-image {
-    /* z-index: 3; */
     position: absolute;
     overflow: hidden;
     width: 450px;
     height: 450px;
     border-radius: 50%;
-    left: 870px;
     box-shadow: 2px 2px 20px rgba(0,0,0,0.7);
     top: 50%;
     transform: translateY(-50%);
@@ -390,6 +388,251 @@ header .menu ul a {
     position: absolute;
     height: 820px;
 }
+
+/* main services */
+
+.services section {
+    height: 820px;
+    width: 100%;
+    position: relative
+}
+
+.services section.one {
+    background-image: url("../images/010.jpg");
+    background-repeat: no-repeat;
+    background-size: 95%;
+    background-position-x: 670px;
+    background-position-y: -670px;
+}
+
+.services .one .overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,0.3) 80%,rgba(255,255,255,0.9) 100%);
+}
+
+.services section.two {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,1) 0%,  rgba(0,0,0,0.7) 40%, rgba(255,255,255,0.7) 100%);
+    background-color: black;
+}
+
+.services section.three {
+    background-image: url("../images/014.jpg");
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position-x: 300px;
+    background-position-y: -200px;
+    border-bottom: 150px solid white;
+}
+
+.services section.one svg:nth-of-type(1) {
+    fill:black;
+    right: 1000px;
+    width: 2020px;
+    filter: drop-shadow(2px 2px 20px rgba(0,0,0,0.7));
+}
+
+.services section.one svg:nth-of-type(2) {
+    fill:white;
+    left: 1740px;
+    width: 4820px;
+}
+
+.services section.two svg:nth-of-type(1){
+    fill:white;
+    right: 1940px;
+    width: 5080px;
+}
+
+.services section.two svg:nth-of-type(2){
+    fill:black;
+    right: 2540px;
+    width: 480px;
+}
+
+.services section.two svg:nth-of-type(3) {
+    fill:white;
+    left: 740px;
+    width: 5080px;
+    filter: drop-shadow(2px 2px 20px rgba(0,0,0,0.7));
+}
+
+.services section.two {
+    height: 1080px;
+}
+
+.services section.two svg {
+    height: 1080px; 
+}
+
+.services section.two img {
+    z-index: 3;
+    position: absolute;
+    bottom: 50px;
+    width: 1190px;
+    left: 120px;
+}
+
+.services section.three{
+    height: 980px;
+}
+
+.services section.three svg:nth-of-type(1) {
+    fill:white;
+    left: 1300px;
+    width: 4980px;
+ 
+    z-index: 1;
+}
+
+.services section.two .images-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.services section.two .circle-image {
+    overflow: hidden;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 20px rgba(0,0,0,0.7);
+    margin: 20px;
+    flex-shrink: 0;
+}
+
+.services section.two .circle-image.left {
+    left: 1510px;
+}
+
+.services section.two .circle-image.right {
+    left: 1860px;
+}
+
+.services section.two .circle-image.left img {
+    width: 450px;
+    margin-left: 0;
+    margin-top: 0px;
+    z-index: 0;
+    position: static;
+}
+
+.services section.two .circle-image.right img {
+    width: 450px;
+    margin-left: -20px;
+    margin-top: 0px;
+    z-index: 0;
+    position: static;
+}
+
+.services section.two .box {
+    width: 720px;
+    margin-top: -50px;
+    border-left: none;
+    padding-left: 0;
+}
+
+.services .box button {
+    margin-left: 130px;
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: 600;
+    height: 68px;
+    background-color: black;
+    color: white;
+    width: 500px;
+}
+
+.services .three .box {
+    margin-top: 200px;
+    position: absolute;
+  }
+
+.services section.three .circle-image {
+    overflow: hidden;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 20px rgba(0,0,0,0.7);
+    margin-top: 40px;
+    flex-shrink: 0;
+}
+
+.services section.three .circle-image img {
+    width: 450px;
+    margin-left: -25px;
+    margin-top: 0px;
+    z-index: 0;
+    position: static;
+}
+
+.services section.two .box p {
+    border-left: 4px solid black;
+    padding-left: 60px;
+}
+
+.services .content {
+    align-items: center;
+}
+
+.services .content.right {
+    justify-content: end;
+    align-items: center;
+}
+
+.services .two .content.right {
+    align-items:flex-start;
+    margin-top: 100px;
+}
+
+.services .box {
+    width: 720px;
+    margin-top: -50px;
+    border-left: 4px solid black;
+    padding-left: 60px;
+}
+
+.services .box.white {
+    color: white;
+    border-left: 4px solid white;
+}
+
+.services .box.y-center {
+    margin-top: 100px;
+}
+
+.services .box  h1 {
+    font-weight: 700;
+    font-size: 54px;
+    text-transform: uppercase;
+    line-height: 54px;
+    margin-bottom: 30px;
+}
+
+.services .box p {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.services section svg {
+    position: absolute;
+    height: 820px;
+}
+
+.services section.three svg {
+    position: absolute;
+    height: 980px;
+}
+
+.services .three .overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to right, rgba(255,255,255,1) 0%,  rgba(255,255,255,1) 40%, rgba(255,255,255,0.7) 50%, rgba(255,255,255,0) 80%);
+}
+
 
 /* quick-contact */
 
