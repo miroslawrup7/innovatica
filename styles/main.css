@@ -1044,7 +1044,7 @@ footer .content {
     /* top: 0; */
     width: 100%;
     height: 100%;
-    background-color: rgba(0,0,0,0.8);
+    background-color: rgba(0,0,0,0.85);
     display: none;
     top: 50%;
     transform: translateY(-50%);
@@ -1057,7 +1057,7 @@ footer .content {
   }
   
   #lightbox .img-wrapper > img {
-    padding: 100px 0;
+    padding: 100px 0 10px 0;
     max-width: 50vw;
     max-height: 85vh;
   }
@@ -1074,3 +1074,31 @@ footer .content {
     padding: 10px;
     width: 70px;
   }
+
+  .prev-btn {
+    position: absolute;
+    top: 50%;
+    left: -150px;
+    font-size: 26px;
+    padding: 10px;
+    width: 70px;
+    transform: translateY(-50%);
+  }
+
+
+  .next-btn {
+    position: absolute;
+    top: 50%;
+    right: -150px;
+    font-size: 26px;
+    padding: 10px;
+    width: 70px;
+    transform: translateY(-50%);
+  }
+
+  .img-title p {
+    color: white;
+    font-size: 24px;
+    text-align: center;
+  }
+
