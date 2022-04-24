@@ -1080,20 +1080,24 @@ footer .content {
     top: 50%;
     left: -150px;
     font-size: 26px;
-    padding: 10px;
-    width: 70px;
+    padding: 30px;
+    width: 120px;
     transform: translateY(-50%);
   }
-
 
   .next-btn {
     position: absolute;
     top: 50%;
     right: -150px;
     font-size: 26px;
-    padding: 10px;
-    width: 70px;
+    padding: 30px;
+    width: 120px;
     transform: translateY(-50%);
+  }
+
+  .prev-btn.disabled,
+  .next-btn.disabled {
+    opacity: 0.1;
   }
 
   .img-title p {
