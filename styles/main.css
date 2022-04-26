@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-
 * {
     margin: 0;
     padding: 0;
@@ -84,6 +83,10 @@ header .menu ul a {
     margin: 0 auto;
 }
 
+.svg_full {display: block;}
+.svg_1920 {display: none;}
+.svg_1600 {display: none;}
+
 /* main home */
 
 .home section {
@@ -124,8 +127,8 @@ header .menu ul a {
     background-position-y: -300px;
 }
 
-.home section.one svg:nth-of-type(1),
-.home section.three svg:nth-of-type(1) {
+.home section.one svg.svg_1,
+.home section.three svg.svg_1 {
     fill:white;
     right: 820px;
     width: 4820px;
@@ -133,22 +136,22 @@ header .menu ul a {
     z-index:1;
 }
 
-.home section.one svg:nth-of-type(2),
-.home section.three svg:nth-of-type(2) {
+.home section.one svg.svg_2,
+.home section.three svg.svg_2 {
     fill:white;
     left: 1740px;
     width: 4820px;
 }
 
-.home section.two svg:nth-of-type(1),
-.home section.four svg:nth-of-type(1) {
+.home section.two svg.svg_1,
+.home section.four svg.svg_1 {
     fill:white;
     right: 1740px;
     width: 4820px;
 }
 
-.home section.two svg:nth-of-type(2),
-.home section.four svg:nth-of-type(2) {
+.home section.two svg.svg_2,
+.home section.four svg.svg_2 {
     fill:black;
     left: 820px;
     width: 4820px;
@@ -249,26 +252,26 @@ header .menu ul a {
     z-index: -1;
 }
 
-.about section.one svg:nth-of-type(1) {
+.about section.one svg.svg_1 {
     fill:white;
     right: 820px;
     width: 4820px;
     filter: drop-shadow(2px 2px 20px rgba(0,0,0,0.7));
 }
 
-.about section.one svg:nth-of-type(2) {
+.about section.one svg.svg_2 {
     fill:white;
     left: 1940px;
     width: 4820px;
 }
 
-.about section.two svg:nth-of-type(1){
+.about section.two svg.svg_1{
     fill:white;
     right: 1740px;
     width: 4820px;
 }
 
-.about section.two svg:nth-of-type(2) {
+.about section.two svg.svg_2 {
     fill:white;
     left: 820px;
     width: 4820px;
@@ -287,11 +290,15 @@ header .menu ul a {
     width: 150%;
 }
 
-.about section.three{
+.about section.three {
     height: 750px;
 }
 
-.about section.three svg:nth-of-type(1) {
+.about section.three svg {
+    height: 750px;
+  }
+
+.about section.three svg.svg_1 {
     fill:white;
     left: -300px;
     width: 2300px;
@@ -299,21 +306,21 @@ header .menu ul a {
     z-index: 1;
 }
 
-.about section.three svg:nth-of-type(2) {
+.about section.three svg.svg_2 {
     top: 100px;
     left: 1050px;
     width: 1520px;
     filter: drop-shadow(2px 2px 20px rgba(0,0,0,0.7));
 }
 
-.about section.four svg:nth-of-type(1) {
+.about section.four svg.svg_1 {
     fill:white;
     right: 1650px;
     width: 4820px;
     filter: drop-shadow(2px 2px 20px rgba(0,0,0,0.7));
 }
 
-.about section.four svg:nth-of-type(2) {
+.about section.four svg.svg_2 {
     fill:white;
     left: 900px;
     width: 4820px;
@@ -413,7 +420,7 @@ header .menu ul a {
 }
 
 .services section.two {
-    background-image: linear-gradient(to bottom, rgba(0,0,0,1) 0%,  rgba(0,0,0,0.7) 40%, rgba(255,255,255,0.7) 100%);
+    background-image: linear-gradient(to bottom, rgba(0,0,0,1) 0%,  rgba(0,0,0,0.7) 50%, rgba(255,255,255,0.7) 100%);
     background-color: black;
 }
 
@@ -426,32 +433,32 @@ header .menu ul a {
     border-bottom: 150px solid white;
 }
 
-.services section.one svg:nth-of-type(1) {
+.services section.one svg.svg_1 {
     fill:black;
     right: 1000px;
     width: 2020px;
     filter: drop-shadow(2px 2px 20px rgba(0,0,0,0.7));
 }
 
-.services section.one svg:nth-of-type(2) {
+.services section.one svg.svg_2 {
     fill:white;
     left: 1740px;
     width: 4820px;
 }
 
-.services section.two svg:nth-of-type(1){
+.services section.two svg.svg_1 {
     fill:white;
     right: 1940px;
     width: 5080px;
 }
 
-.services section.two svg:nth-of-type(2){
+.services section.two svg.svg_2 {
     fill:black;
     right: 2540px;
     width: 480px;
 }
 
-.services section.two svg:nth-of-type(3) {
+.services section.two svg.svg_3 {
     fill:white;
     left: 740px;
     width: 5080px;
@@ -474,11 +481,11 @@ header .menu ul a {
     left: 120px;
 }
 
-.services section.three{
+.services section.three {
     height: 980px;
 }
 
-.services section.three svg:nth-of-type(1) {
+.services section.three svg.svg_1 {
     fill:white;
     left: 1300px;
     width: 4980px;
@@ -703,35 +710,39 @@ header .menu ul a {
     display: flex;
 }
 
-.contact section.one svg:nth-of-type(1) {
+.contact section.one svg.svg_1 {
     fill:white;
     right: 1100px;
     width: 4680px;
 }
 
-.contact section.one svg:nth-of-type(2) {
+.contact section.one svg.svg_2 {
     fill:white;
     left: 2080px;
     width: 4680px;
+}
+
+.contact section.one svg {
+    height: 680px;
 }
 
 .contact .one .box p {
     padding-right: 100px;
 }
 
-.contact section.two svg:nth-of-type(1){
+.contact section.two svg.svg_1{
     fill:white;
     right: 1490px;
     width: 5080px;
 }
 
-.contact section.two svg:nth-of-type(2){
+.contact section.two svg.svg_2{
     fill:black;
     right: 2540px;
     width: 480px;
 }
 
-.contact section.two svg:nth-of-type(3) {
+.contact section.two svg.svg_3 {
     fill:white;
     left: 740px;
     width: 5080px;
@@ -1027,21 +1038,11 @@ footer .content {
     padding-left: 30px;
 }
 
-
-
-
-
-
-
-
-
-
 /* LIGHTBOX */
 
 #lightbox {
     position: fixed;
     z-index: 1000;
-    /* top: 0; */
     width: 100%;
     height: 100%;
     background-color: rgba(0,0,0,0.85);
@@ -1106,3 +1107,576 @@ footer .content {
     text-align: center;
   }
 
+@media (max-width: 2560px) {
+
+    .container {
+        width: 1920px;
+    }
+    
+    .svg_full {display: none;}
+    .svg_1920 {display: block;}
+    .svg_1600 {display: none;}
+
+    .quick-contact svg {
+        position: absolute;
+        height: 270px;
+        width: 4270px;
+        fill: black;
+        right: 330px;
+      }
+
+/* home */
+
+    .home section.one svg.svg_1, 
+    .home section.three svg.svg_1 {
+        right: 500px;
+    }
+
+    .home section.one svg.svg_2,
+    .home section.three svg.svg_2 {
+        left: 1420px;
+    }
+
+    .home section.one {
+        background-size: 75%;
+        background-position-x: 600px;
+    }
+
+    .home section.two svg.svg_1,
+    .home section.four svg.svg_1 {
+        right: 1420px;
+    }
+
+    .home section.two svg.svg_2,
+    .home section.four svg.svg_2 {
+        left: 500px;
+    }
+
+    .home section.two {
+        background-size: 78%;
+        background-position-x: -86px;
+    }
+
+    .home section.three {
+        background-size: 75%;
+        background-position-x: 600px;
+    }
+
+    .home section.four {
+        background-size: 75%;
+        background-position-x: -120px;
+        background-position-y: -100px;
+    }
+    
+    /* about */
+
+    .about section.one svg.svg_1 {
+        right: 500px;
+    }
+
+    .about section.one svg.svg_2 {
+        left: 1420px;
+    }
+
+    .about section.one {
+        background-size: 100%;
+        background-position-x: 520px;
+        background-position-y: -100px;
+    }
+
+    .about section.two svg.svg_1{
+        right: 1420px;
+    }
+
+    .about section.two svg.svg_2 {
+        left: 500px;
+    }
+
+    .about section.two img {
+        left: 530px;
+    }
+
+    .about section.three svg.svg_1 {
+        left: -640px;
+    }
+
+    .about section.three svg.svg_2 {
+        left: 700px;
+    }
+
+    .about section.four svg.svg_1 {
+        right: 1100px;
+    }
+
+    .about section.four svg.svg_2 {
+        left: 800px;
+    }
+
+    .about section.four .circle-image {
+        width: 400px;
+        height: 400px;
+    }
+
+    .about section.four .circle-image.left {
+        left: 300px;
+    }
+
+    .about section.four .circle-image.right {
+        left: 780px;
+    }
+
+    .about section.four {
+        left: -250px;
+    }
+
+    .about section.four .content {
+        left: 1200px;
+    }
+
+    /* services */
+
+    .services section.one svg.svg_1 {
+        right: 660px;
+    }
+
+    .services section.one svg.svg_2 {
+        left: 1400px;
+    }
+
+    .services section.one {
+        background-size: 100%;
+        background-position-x: 435px;
+        background-position-y: -391px;
+    }
+
+    .services section.two svg.svg_1 {
+        right: 1560px;
+    }
+
+    .services section.two svg.svg_2 {
+        fill:black;
+        right: 1920px;
+        width: 720px;
+    }
+
+    .services section.two svg.svg_3 {
+        left: 440px;
+        width: 5080px;
+    }
+
+    .services section.two {
+        background-image: linear-gradient(to bottom, rgb(0, 0, 0) 0%, rgba(0,0,0,0.7) 65%, rgba(255,255,255,0.7) 100%);
+    }
+
+    .services section.two img {
+        left: -100px;
+    }
+
+    .services section.three svg.svg_1 {
+        left: 940px;
+    }
+
+    .services section.three {
+        background-size: 100%;
+        background-position-x: 100px;
+        background-position-y: -75px;
+    }
+
+    .contact section.one svg.svg_1 {
+        right: 760px;
+    }
+
+    .contact section.one {
+        background-size: 75%;
+        background-position-x: 535px;
+        background-position-y: 0px;
+        height: 680px;
+    }
+
+    .contact section.one svg.svg_2 {
+        left: 1550px;
+    }
+
+    .contact section.two img {
+        left: 60px;
+      }
+}
+
+@media (max-width: 2100px) {
+
+    .content {
+        width: 1500px;
+    }
+
+    header {
+        height: 140px;
+    }
+
+    header .logo img {
+        height: 50px;
+    } 
+
+    header .menu {
+        width: 800px;
+        font-size: 21px;
+      }
+
+    .container {
+        width: 1600px;
+    }
+
+    .svg_full {display: none;}
+    .svg_1920 {display: none;}
+    .svg_1600 {display: block;}
+
+    .quick-contact {
+        height: 240px;
+    }
+
+    .quick-contact svg {
+        height: 240px;
+        right: 250px;
+    }
+
+    .quick-contact_box .facebook {
+        width: 115px;
+        height: 115px;
+    }
+
+    .quick-contact_box .tel {
+        color: white;
+        height: 115px;
+    }
+
+    .quick-contact_box .tel p:nth-of-type(1) {
+        font-size: 35px;
+    }
+
+    .quick-contact_box .tel p:nth-of-type(2) {
+        font-size: 45px;
+    }
+
+    .footer-left-box .footer-logo img {
+        width: 400px;
+    }
+
+    .footer-left-box .company-box {
+        font-size: 24px;
+    }
+
+    .footer-left-box .address-box {
+        font-size: 24px;
+    }
+
+    .footer-right-box li {
+        font-size: 24px;
+    }
+
+/* home */
+
+    .home section {
+        height: 650px;
+    }
+
+    .home section.one svg.svg_1.svg_1600, 
+    .home section.three svg.svg_1.svg_1600 {
+        right: 260px;
+    }
+
+    .home section.one svg.svg_2,
+    .home section.three svg.svg_2 {
+        left: 1300px;
+    }
+
+    .home section.one {
+        background-size: 75%;
+        background-position-x: 520px;
+    }
+
+    .home section.two svg.svg_1,
+    .home section.four svg.svg_1 {
+        right: 1120px;
+    }
+
+    .home section.two svg.svg_2,
+    .home section.four svg.svg_2 {
+        left: 430px;
+    }
+
+    .home section.two {
+        background-size: 78%;
+        background-position-x: -86px;
+    }
+
+    .home section.three {
+        background-size: 80%;
+        background-position-x: 520px;
+    }
+
+    .home section.four {
+        background-size: 75%;
+        background-position-x: -120px;
+        background-position-y: -100px;
+    }
+
+    .home .box {
+        width: 550px;
+        height: 100%;
+      }
+
+    .home .box .title {
+        margin-top: 90px;
+        margin-left: 0px;
+        padding-bottom: 35px;
+    }
+
+    .home .box .title h1 {
+        font-size: 60px;
+        line-height: 0;
+    }
+
+    .home .box p {
+        margin: 40px 0 40px 0;
+        font-size: 22px;
+    }
+
+    .home .box button {
+        margin-left: 0;
+        font-size: 22px;
+        width: 250px;
+    }
+    
+    /* about */
+
+    .about section {
+        height: 650px;
+    }
+
+      .about section.three {
+        height: 600px;
+    }
+
+    .about .box h1 {
+        font-weight: 700;
+        font-size: 48px;
+    }
+
+    .about .box p {
+        font-size: 24px;
+    }
+
+    .about section.two img {
+        width: 350px;
+    }
+
+    .about section.one svg.svg_1 {
+        right: 225px;
+    }
+
+    .about section.one svg.svg_2 {
+        left: 1300px;
+    }
+
+    .about section.one {
+        background-size: 100%;
+        background-position-x: 520px;
+        background-position-y: -100px;
+    }
+
+    .about section.two svg.svg_1{
+        right: 1150px;
+    }
+
+    .about section.two svg.svg_2 {
+        left: 320px;
+    }
+
+    .about section.two img {
+        left: 250px;
+    }
+
+    .about section.three svg {
+        height: 600px;
+    }
+
+    .about section.three svg.svg_1 {
+        left: -550px;
+    }
+
+    .about section.three svg.svg_2 {
+        left: 400px;
+    }
+
+    .about section.four svg {
+        height: 650px;
+    }
+
+    .about section.four svg.svg_1 {
+        right: 900px;
+    }
+
+    .about section.four svg.svg_2 {
+        left: 600px;
+    }
+
+    .about section.four .circle-image {
+        width: 400px;
+        height: 400px;
+    }
+
+    .about section.four .circle-image.left {
+        left: 200px;
+    }
+
+    .about section.four .circle-image.right {
+        left: 700px;
+    }
+
+    .about section.four {
+        left: -250px;
+    }
+
+    .about section.four .content {
+        left: 1200px;
+    }
+
+    /* services */
+
+    .services .box {
+        width: 620px;
+    }
+
+    .services .box h1 {
+        font-size: 48px;
+    }
+
+    .services .box p {
+        font-size: 22px;
+    }
+
+    .services .box button {
+        font-size: 21px;
+        width: 430px;
+        margin-left: 170px;
+    }
+
+    .services section.one {
+        height: 650px;
+    }
+
+    .services section svg {
+        height: 650px;
+      }
+
+    .services section.one svg.svg_1 {
+        right: 200px;
+    }
+
+    .services section.one svg.svg_2 {
+        left: 1260px;
+    }
+
+    .services section.one {
+        background-size: 100%;
+        background-position-x: 435px;
+        background-position-y: -391px;
+    }
+
+    .services section.two {
+        height: 900px;
+    }
+
+    .services section.two svg {
+        height: 900px;
+      }
+
+    .services section.two svg.svg_1 {
+        right: 1100px;
+    }
+
+    .services section.two svg.svg_2{
+        fill:black;
+        right: 1460px;
+        width: 720px;
+    }
+
+    .services section.two svg.svg_3 {
+        left: 480px;
+        width: 5080px;
+    }
+
+    .services section.two {
+        background-image: linear-gradient(to bottom, rgb(0, 0, 0) 0%, rgba(0,0,0,0.7) 65%, rgba(255,255,255,0.7) 100%);
+    }
+
+    .services section.two img {
+        left: -150px;
+    }
+
+    .services section.two img {
+        width: 1000px;
+      }
+
+    .services section.three svg.svg_1 {
+        left: 940px;
+    }
+
+    .services section.three {
+        background-size: 100%;
+        background-position-x: 100px;
+        background-position-y: -75px;
+    }
+
+    .portfolio section.one .text-box {
+        font-size: 24px;
+    }
+
+    .contact .box p {
+        font-size: 24px;
+    }
+
+    .contact .two .box p {
+        font-size: 26px;
+    }
+
+    .contact section.one svg.svg_1 {
+        right: 400px;
+    }
+
+    .contact section.one {
+        background-size: 75%;
+        background-position-x: 430px;
+        background-position-y: 0px;
+        height: 500px;
+    }
+
+    .contact section.one svg.svg_2 {
+        left: 1340px;
+    }
+
+    .contact section.two {
+        height: 500px;
+    }
+
+    .contact section.two .box {
+        width: 625px;
+    }
+
+    .contact section.two img {
+        left: 60px;
+        width: 800px;
+    }
+
+    .contact .box h1 {
+        font-size: 46px;
+    }
+
+    .contact .box a {
+        font-size: 34px;
+    }
+
+    .contact .four .box p {
+        font-size: 28px;
+    }
+    
+}
