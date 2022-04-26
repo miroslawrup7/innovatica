@@ -87,6 +87,7 @@ header .menu ul a {
 .svg_1920 {display: none;}
 .svg_1600 {display: none;}
 .svg_1400 {display: none;}
+.svg_1000 {display: none;}
 
 /* main home */
 
@@ -1118,6 +1119,7 @@ footer .content {
     .svg_1920 {display: block;}
     .svg_1600 {display: none;}
     .svg_1400 {display: none;}
+    .svg_1000 {display: none;}
 
     .quick-contact svg {
         position: absolute;
@@ -1333,6 +1335,7 @@ footer .content {
     .svg_1920 {display: none;}
     .svg_1600 {display: block;}
     .svg_1400 {display: none;}
+    .svg_1000 {display: none;}
 
     .quick-contact {
         height: 240px;
@@ -1736,6 +1739,7 @@ footer .content {
     .svg_1920 {display: none;}
     .svg_1600 {display: none;}
     .svg_1400 {display: block;}
+    .svg_1000 {display: none;}
 
     .quick-contact {
         height: 200px;
@@ -2082,6 +2086,7 @@ footer .content {
 
     .portfolio section.one .text-box {
         font-size: 24px;
+        width: 1050px;
     }
 
     .portfolio section.gallery {
@@ -2155,6 +2160,588 @@ footer .content {
 
     .contact .four .box p {
         font-size: 25px;
+    }
+    
+}
+
+@media (max-width: 1500px) {
+
+    .content {
+        width: 800px;
+    }
+
+    header {
+        height: 100px;
+    }
+
+    header .logo img {
+        height: 40px;
+    } 
+
+    header .menu {
+        width: 475px;
+        font-size: 16px;
+      }
+
+    .container {
+        width: 1000px;
+    }
+
+    .svg_full {display: none;}
+    .svg_1920 {display: none;}
+    .svg_1600 {display: none;}
+    .svg_1400 {display: none;}
+    .svg_1000 {display: block;}
+
+    .quick-contact {
+        height: 150px;
+    }
+
+    .quick-contact svg {
+        height: 150px;
+        right: 50px;
+    }
+
+    .quick-contact_box .facebook {
+        width: 75px;
+        height: 75px;
+    }
+
+    .quick-contact_box .tel {
+        height: 80px;
+        border-left: 4px solid white;
+    }
+
+    .quick-contact_box .tel p:nth-of-type(1) {
+        font-size: 24px;
+    }
+
+    .quick-contact_box .tel p:nth-of-type(2) {
+        font-size: 34px;
+    }
+
+    footer {
+        height: 290px;
+    }
+
+    footer .content {
+        flex-direction: column;
+        top: 20px;
+    }
+
+    .footer-left-box {
+        width: 100%;
+        height: 175px;
+        padding: 20px 0;
+    }
+
+    .footer-left-box .footer-logo {
+      
+        display: flex;
+    }
+
+    .footer-left-box .footer-logo img {
+        width: 250px;
+        object-fit: contain;
+    }
+
+    .footer-left-box .company-box {
+        font-size: 16px;
+        border-left: none;
+        padding: 0px 55px;
+    }
+
+    .footer-left-box .address-box {
+        font-size: 16px;
+    }
+
+    .footer-right-box {
+        width: 100%;
+        margin-bottom: 40px;
+      }
+
+    .footer-right-box ul {
+        height: 120px;
+    }
+
+    .footer-right-box li {
+        font-size: 18px;
+        margin: 4px 50px;
+        border-left: 3px solid black;
+        padding-left: 20px;
+        width: 150px;
+    }
+
+/* home */
+
+    .home section {
+        height: 550px;
+    }
+
+    .home section svg {
+        height: 550px;
+    }
+
+    .home section.one svg.svg_1, 
+    .home section.three svg.svg_1 {
+        right: -20px;
+    }
+
+    .home section.one svg.svg_2,
+    .home section.three svg.svg_2 {
+        left: 750px;
+    }
+
+    .home section.one {
+        background-size: 85%;
+        background-position-x: 200px;       
+    }
+
+    .home section.two svg.svg_1,
+    .home section.four svg.svg_1 {
+        right: 500px;
+    }
+
+    .home section.two svg.svg_2,
+    .home section.four svg.svg_2 {
+        left: 130px;
+    }
+
+    .home section.two {
+        background-size: 95%;
+        background-position-x: -210px;
+    }
+
+    .home section.three {
+        background-size: 100%;
+        background-position-x: 190px;
+    }
+
+    .home section.four {
+        background-size: 85%;
+        background-position-x: -170px;
+        background-position-y: -15px;
+
+    }
+
+    .home .box {
+        width: 300px;
+        height: 100%;
+      }
+
+    .home .box .title {
+        margin-top: 90px;
+        margin-left: 0px;
+        padding-bottom: 20px;
+    }
+
+    .home .box .title h1 {
+        font-size: 36px;
+        line-height: 1;
+    }
+
+    .home .box .title h1 span {
+        line-height: 1;
+    }
+
+    .home .box p {
+        margin: 25px 0 25px 0;
+        font-size: 16px;
+    }
+
+    .home .box button {
+        margin-left: 0;
+        font-size: 20px;
+        height: 60px;
+        width: 230px;
+    }
+    
+    /* about */
+
+    .about section {
+        height: 550px;
+    }
+
+    .about section svg {
+        position: absolute;
+        height: 550px;
+    }
+
+    .about section.three {
+        height: 400px;
+    }
+
+    .about .box h1 {
+        font-weight: 700;
+        font-size: 28px;
+        margin-bottom: 14px;
+        line-height: 1.2;
+    }
+
+    .about .box {
+        width: 325px;
+        margin-top: -10px;
+        padding-left: 35px;
+    }
+
+    .about .three .box {
+        width: 416px;
+        margin-top: 25px;
+    }
+
+    .about .box p {
+        font-size: 16px;
+    }
+
+    .about section .content {
+        align-items: flex-start;
+        margin-top: 50px;
+    }
+
+    .about .content.right {
+        align-items: flex-start;
+    }
+
+    .about section.two img {
+        width: 285px;
+    }
+
+    .about section.one svg.svg_1 {
+        right: -40px;
+    }
+
+    .about section.one svg.svg_2 {
+        left: 700px;
+    }
+
+    .about section.one {
+        background-size: 115%;
+        background-position-x: 220px;
+        background-position-y: -70px;
+    }
+
+    .about section.two svg.svg_1{
+        right: 500px;
+    }
+
+    .about section.two svg.svg_2 {
+        left: 250px;
+    }
+
+    .about section.two img {
+        left: 200px;
+    }
+
+    .about section.three svg {
+        height: 400px;
+    }
+
+    .about section.three svg.svg_1 {
+        left: -400px;
+    }
+
+    .about section.three svg.svg_2 {
+        left: 300px;
+        width: 800px;
+        top: 50px;
+    }
+
+    .about section.four svg {
+        height: 550px;
+    }
+
+    .about section.four svg.svg_1 {
+        right: 620px;
+        width: 4550px;
+    }
+
+    .about section.four svg.svg_2 {
+        left: 300px;
+    }
+
+    .about section.four .circle-image {
+        width: 220px;
+        height: 220px;
+    }
+
+    .about section.four .circle-image.left {
+        left: 275px;
+    }
+
+    .about section.four .circle-image.right {
+        left: 540px;
+    }
+
+    .about section.four .circle-image.right img {
+        scale: 1.2;
+        margin-left: -55px;
+        margin-top: -64px;
+    }
+
+    .about section.four .circle-image.left img {
+        scale: 1.2;
+        margin-left: -182px;
+        margin-top: -54px;
+    }
+
+    .about section.four {
+        left: -250px;
+    }
+
+    .about section.four .content {
+        left: 750px;
+    }
+
+    /* services */
+
+    .services .one .content {
+        align-items: flex-start;
+        margin-top: 100px;
+      }
+
+    .services .box {
+        width: 400px;
+        padding-left: 40px;
+    }
+    .services .box.white {
+        border-left: 3px solid white;
+    }
+
+    .services .box h1 {
+        font-size: 30px;
+        margin-bottom: 12px;
+    }
+
+    .services .box p {
+        font-size: 16px;
+    }
+
+    .services .box button {
+        font-size: 21px;
+        width: 430px;
+        margin-left: 110px;
+    }
+
+    .services section.one {
+        height: 550px;
+    }
+
+    .services section svg {
+        height: 550px;
+      }
+
+    .services section.one svg.svg_1 {
+        right: -560px;
+    }
+
+    .services section.one svg.svg_2 {
+        left: 750px;
+    }
+
+    .services section.one {
+        background-size: 115%;
+        background-position-x: 188px;
+        background-position-y: -110px;
+    }
+
+    .services section.two {
+        height: 600px;
+    }
+
+    .services section.two svg {
+        height: 600px;
+    }
+
+    .services section.two svg.svg_1 {
+        right: 870px;
+        width: 4600px;
+    }
+
+    .services section.two svg.svg_2{
+        fill:black;
+        right: 750px;
+        width: 720px;
+    }
+
+    .services section.two svg.svg_3 {
+        left: 190px;
+        width: 5080px;
+    }
+
+    .services section.two {
+        background-image: linear-gradient(to bottom, rgb(0, 0, 0) 0%, rgba(0,0,0,0.7) 80%, rgba(255,255,255,0.7) 100%);
+    }
+
+    .services section.two .box {
+        width: 460px;
+    }
+
+    .services section.two .box p {
+        padding-left: 32px;
+    }
+
+    .services .two .content.right {
+        margin-top: 77px;
+    }
+
+    .services section.two img {
+        left: -25px;
+        width: 500px;
+    }
+
+    .services section.two .circle-image {
+        width: 150px;
+        height: 150px;
+    }
+
+    .services section.two .circle-image.right img {
+        width: 260px;
+    }
+
+    .services section.two .circle-image.left img {
+        width: 260px;
+    }
+
+    .services section.two .images-box {
+        margin-top: 0px;
+    }
+
+    .services section.three svg {
+        height: 600px;
+    }
+
+    .services section.three svg.svg_1 {
+        left: 400px;
+    }
+
+    .services .box button {
+        height: 60px;
+        font-size: 16px;
+        width: 360px;
+        margin-left: 69px;
+    }
+
+    .services section.three {
+        background-size: 100%;
+        background-position-x: 100px;
+        background-position-y: -75px;
+        height: 600px;
+    }
+
+    .services section.three .box {
+        width: 440px;
+    }
+
+    .services section.three .circle-image img {
+        width: 265px;
+        margin-left: -45px;
+    }
+
+    .services section.three .circle-image {
+        width: 150px;
+        height: 150px;
+        margin-top: 25px;
+    }
+
+    .portfolio section.one {
+        height: 230px;
+    }
+
+    .portfolio section.one .text-box {
+        font-size: 16px;
+        width: 640px;
+        margin-left: 100px;
+    }
+
+    .portfolio section.gallery {
+            height: 1000px;
+    }
+
+    .portfolio .gallery .content img {
+        height: 200px;
+        width: 25%;
+    }
+
+    .contact .box {
+        width: 560px;
+        padding-left: 32px;
+    }
+
+    .contact .box p {
+        font-size: 16px;
+    }
+
+    .contact .two .box p {
+        font-size: 16px;
+    }
+
+    .contact section.one svg {
+        height: 400px;
+    }
+
+    .contact section.one svg.svg_1 {
+        right: -50px;
+    }
+
+    .contact section.one {
+        background-size: 80%;
+        background-position-x: 320px;
+        background-position-y: 0px;
+        height: 400px;
+    }
+
+    .contact section.one svg.svg_2 {
+        left: 840px;
+    }
+
+    .contact section.two {
+        height: 300px;
+    }
+
+    .contact section.two .box {
+        width: 432px;
+        margin-bottom: 130px;
+    }
+
+    .contact section.two .box p {
+        padding-left: 120px;
+    }
+
+    .contact section.two img {
+        left: 45px;
+        width: 500px;
+        bottom: 50px;
+    }
+
+    .contact section.three {
+        height: 350px;
+        border-top: 4px solid black;
+        border-bottom: 4px solid black;
+    }
+
+    .contact .three .box {
+       padding-right: 120px;
+       margin-top: 0;
+    }
+
+    .contact .box {
+        border-left: 3px solid black;
+    }
+
+    .contact .box h1 {
+        font-size: 26px;
+    }
+
+    .contact .box a {
+        font-size: 20px;
+    }
+
+    .contact section.four {
+        height: 280px;
+    }
+
+    .contact .four .box p {
+        font-size: 20px;
     }
     
 }
