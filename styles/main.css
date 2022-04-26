@@ -86,6 +86,7 @@ header .menu ul a {
 .svg_full {display: block;}
 .svg_1920 {display: none;}
 .svg_1600 {display: none;}
+.svg_1400 {display: none;}
 
 /* main home */
 
@@ -1116,6 +1117,7 @@ footer .content {
     .svg_full {display: none;}
     .svg_1920 {display: block;}
     .svg_1600 {display: none;}
+    .svg_1400 {display: none;}
 
     .quick-contact svg {
         position: absolute;
@@ -1202,6 +1204,8 @@ footer .content {
 
     .about section.three svg.svg_2 {
         left: 700px;
+        width: 1520px;
+        top: 100px;
     }
 
     .about section.four svg.svg_1 {
@@ -1328,6 +1332,7 @@ footer .content {
     .svg_full {display: none;}
     .svg_1920 {display: none;}
     .svg_1600 {display: block;}
+    .svg_1400 {display: none;}
 
     .quick-contact {
         height: 240px;
@@ -1378,8 +1383,8 @@ footer .content {
         height: 650px;
     }
 
-    .home section.one svg.svg_1.svg_1600, 
-    .home section.three svg.svg_1.svg_1600 {
+    .home section.one svg.svg_1, 
+    .home section.three svg.svg_1 {
         right: 260px;
     }
 
@@ -1505,6 +1510,8 @@ footer .content {
 
     .about section.three svg.svg_2 {
         left: 400px;
+        width: 1220px;
+        top: 65px;
     }
 
     .about section.four svg {
@@ -1603,6 +1610,7 @@ footer .content {
     .services section.two svg.svg_3 {
         left: 480px;
         width: 5080px;
+        filter: none;
     }
 
     .services section.two {
@@ -1615,7 +1623,15 @@ footer .content {
 
     .services section.two img {
         width: 1000px;
-      }
+    }
+
+    .services section.three {
+        height: 800px;
+    }
+
+    .services section.three svg {
+        height: 800px;
+    }
 
     .services section.three svg.svg_1 {
         left: 940px;
@@ -1626,11 +1642,23 @@ footer .content {
         background-position-x: 100px;
         background-position-y: -75px;
     }
+    
+    .portfolio section.one {
+        height: 300px;
+    }
 
     .portfolio section.one .text-box {
         font-size: 24px;
     }
 
+    .portfolio section.gallery {
+        height: 2100px;
+    }
+
+    .portfolio .gallery .content img {
+        height: 450px;
+    }
+    
     .contact .box p {
         font-size: 24px;
     }
@@ -1677,6 +1705,456 @@ footer .content {
 
     .contact .four .box p {
         font-size: 28px;
+    }
+    
+}
+
+@media (max-width: 1800px) {
+
+    .content {
+        width: 1200px;
+    }
+
+    header {
+        height: 140px;
+    }
+
+    header .logo img {
+        height: 50px;
+    } 
+
+    header .menu {
+        width: 750px;
+        font-size: 21px;
+      }
+
+    .container {
+        width: 1400px;
+    }
+
+    .svg_full {display: none;}
+    .svg_1920 {display: none;}
+    .svg_1600 {display: none;}
+    .svg_1400 {display: block;}
+
+    .quick-contact {
+        height: 200px;
+    }
+
+    .quick-contact svg {
+        height: 200px;
+        right: 230px;
+    }
+
+    .quick-contact_box .facebook {
+        width: 100px;
+        height: 100px;
+    }
+
+    .quick-contact_box .tel {
+        height: 100px;
+    }
+
+    .quick-contact_box .tel p:nth-of-type(1) {
+        font-size: 30px;
+    }
+
+    .quick-contact_box .tel p:nth-of-type(2) {
+        font-size: 40px;
+    }
+
+    footer {
+        height: 350px;
+    }
+
+    .footer-left-box .footer-logo {
+        padding-right: 40px;
+    }
+
+    .footer-left-box .footer-logo img {
+        width: 300px;
+    }
+
+    .footer-left-box .company-box {
+        font-size: 20px;
+    }
+
+    .footer-left-box .address-box {
+        font-size: 20px;
+    }
+
+    .footer-right-box li {
+        font-size: 20px;
+        margin: 6px 0;
+    }
+
+/* home */
+
+    .home section {
+        height: 600px;
+    }
+
+    .home section svg {
+        height: 600px;
+    }
+
+    .home section.one svg.svg_1, 
+    .home section.three svg.svg_1 {
+        right: 200px;
+    }
+
+    .home section.one svg.svg_2,
+    .home section.three svg.svg_2 {
+        left: 1100px;
+    }
+
+    .home section.one {
+        background-size: 79%;
+        background-position-x: 380px;
+    }
+
+    .home section.two svg.svg_1,
+    .home section.four svg.svg_1 {
+        right: 900px;
+    }
+
+    .home section.two svg.svg_2,
+    .home section.four svg.svg_2 {
+        left: 300px;
+    }
+
+    .home section.two {
+        background-size: 78%;
+        background-position-x: -86px;
+    }
+
+    .home section.three {
+        background-size: 85%;
+    background-position-x: 350px;
+    }
+
+    .home section.four {
+        background-size: 75%;
+        background-position-x: -120px;
+        background-position-y: -100px;
+    }
+
+    .home .box {
+        width: 460px;
+        height: 100%;
+      }
+
+    .home .box .title {
+        margin-top: 90px;
+        margin-left: 0px;
+        padding-bottom: 20px;
+    }
+
+    .home .box .title h1 {
+        font-size: 52px;
+        line-height: 0;
+    }
+
+    .home .box p {
+        margin: 40px 0 40px 0;
+        font-size: 19px;
+    }
+
+    .home .box button {
+        margin-left: 0;
+        font-size: 20px;
+        height: 60px;
+        width: 230px;
+    }
+    
+    /* about */
+
+    .about section {
+        height: 600px;
+    }
+
+      .about section.three {
+        height: 500px;
+    }
+
+    .about .box h1 {
+        font-weight: 700;
+        font-size: 35px;
+    }
+
+    .about .box {
+        width: 550px;
+        margin-top: -10px;
+    }
+
+    .about .box p {
+        font-size: 20px;
+    }
+
+    .about section.two img {
+        width: 320px;
+    }
+
+    .about section.one svg.svg_1 {
+        right: 170px;
+    }
+
+    .about section.one svg.svg_2 {
+        left: 1140px;
+    }
+
+    .about section.one {
+        background-size: 100%;
+        background-position-x: 420px;
+        background-position-y: -100px;
+    }
+
+    .about section.two svg.svg_1{
+        right: 940px;
+    }
+
+    .about section.two svg.svg_2 {
+        left: 280px;
+    }
+
+    .about section.two img {
+        left: 250px;
+    }
+
+    .about section.three svg {
+        height: 500px;
+    }
+
+    .about section.three svg.svg_1 {
+        left: -490px;
+    }
+
+    .about section.three svg.svg_2 {
+        left: 365px;
+        width: 1220px;
+        top: 65px;
+    }
+
+    .about section.four svg {
+        height: 600px;
+    }
+
+    .about section.four svg.svg_1 {
+        right: 620px;
+    }
+
+    .about section.four svg.svg_2 {
+        left: 520px;
+    }
+
+    .about section.four .circle-image {
+        width: 330px;
+        height: 330px;
+    }
+
+    .about section.four .circle-image.left {
+        left: 200px;
+    }
+
+    .about section.four .circle-image.right {
+        left: 600px;
+    }
+
+    .about section.four {
+        left: -250px;
+    }
+
+    .about section.four .content {
+        left: 1000px;
+    }
+
+    /* services */
+
+    .services .box {
+        width: 540px;
+    }
+
+    .services .box h1 {
+        font-size: 40px;
+    }
+
+    .services .box p {
+        font-size: 20px;
+    }
+
+    .services .box button {
+        font-size: 21px;
+        width: 430px;
+        margin-left: 110px;
+    }
+
+    .services section.one {
+        height: 600px;
+    }
+
+    .services section svg {
+        height: 600px;
+      }
+
+    .services section.one svg.svg_1 {
+        right: -150px;
+    }
+
+    .services section.one svg.svg_2 {
+        left: 1100px;
+    }
+
+    .services section.one {
+        background-size: 100%;
+        background-position-x: 440px;
+        background-position-y: -260px;
+    }
+
+    .services section.two {
+        height: 800px;
+    }
+
+    .services section.two svg {
+        height: 800px;
+    }
+
+    .services section.two svg.svg_1 {
+        right: 1190px;
+        width: 4800px;
+    }
+
+    .services section.two svg.svg_2{
+        fill:black;
+        right: 1260px;
+        width: 720px;
+    }
+
+    .services section.two svg.svg_3 {
+        left: 430px;
+        width: 5080px;
+    }
+
+    .services section.two {
+        background-image: linear-gradient(to bottom, rgb(0, 0, 0) 0%, rgba(0,0,0,0.7) 65%, rgba(255,255,255,0.7) 100%);
+    }
+
+    .services section.two .box {
+        width: 600px;
+    }
+
+    .services section.two img {
+        left: -120px;
+        width: 850px;
+    }
+
+    .services section.two .circle-image {
+        width: 250px;
+        height: 250px;
+    }
+
+    .services section.three svg {
+        height: 800px;
+    }
+
+    .services section.three svg.svg_1 {
+        left: 560px;
+    }
+
+    .services section.three {
+        background-size: 100%;
+        background-position-x: 100px;
+        background-position-y: -75px;
+    }
+
+    .services section.three .circle-image img {
+        width: 420px;
+        margin-left: -40px;
+    }
+
+    .services section.three .circle-image {
+        width: 250px;
+        height: 250px;
+    }
+
+    .portfolio section.one {
+        height: 300px;
+    }
+
+    .portfolio section.one .text-box {
+        font-size: 24px;
+    }
+
+    .portfolio section.gallery {
+        height: 1700px;
+    }
+
+    .portfolio .gallery .content img {
+        height: 360px;
+    }
+
+    .contact .box p {
+        font-size: 20px;
+    }
+
+    .contact .two .box p {
+        font-size: 22px;
+    }
+
+    .contact section.one svg {
+        height: 450px;
+    }
+
+    .contact section.one svg.svg_1 {
+        right: 180px;
+    }
+
+    .contact section.one {
+        background-size: 80%;
+        background-position-x: 320px;
+        background-position-y: 0px;
+        height: 450px;
+    }
+
+    .contact section.one svg.svg_2 {
+        left: 1200px;
+    }
+
+    .contact section.two {
+        height: 400px;
+    }
+
+    .contact section.two .box {
+        width: 625px;
+        margin-bottom: 160px;
+    }
+
+    .contact section.two .box p {
+        padding-left: 120px;
+    }
+
+    .contact section.two img {
+        left: 60px;
+        width: 660px;
+    }
+
+    .contact section.three {
+        height: 425px;
+    }
+
+    .contact .box h1 {
+        font-size: 40px;
+    }
+
+    .contact .box a {
+        font-size: 30px;
+    }
+
+    .contact section.four {
+        height: 425px;
+    }
+
+    .contact .four .box p {
+        font-size: 25px;
     }
     
 }
