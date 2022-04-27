@@ -88,6 +88,7 @@ header .menu ul a {
 .svg_1600 {display: none;}
 .svg_1400 {display: none;}
 .svg_1000 {display: none;}
+.svg_600 {display: none;}
 
 /* main home */
 
@@ -1120,6 +1121,7 @@ footer .content {
     .svg_1600 {display: none;}
     .svg_1400 {display: none;}
     .svg_1000 {display: none;}
+    .svg_600 {display: none;}
 
     .quick-contact svg {
         position: absolute;
@@ -1336,6 +1338,7 @@ footer .content {
     .svg_1600 {display: block;}
     .svg_1400 {display: none;}
     .svg_1000 {display: none;}
+    .svg_600 {display: none;}
 
     .quick-contact {
         height: 240px;
@@ -1440,7 +1443,11 @@ footer .content {
 
     .home .box .title h1 {
         font-size: 60px;
-        line-height: 0;
+        line-height: 60px;
+    }
+
+    .home .box .title span {
+        line-height: 60px;
     }
 
     .home .box p {
@@ -1740,6 +1747,7 @@ footer .content {
     .svg_1600 {display: none;}
     .svg_1400 {display: block;}
     .svg_1000 {display: none;}
+    .svg_600 {display: none;}
 
     .quick-contact {
         height: 200px;
@@ -1856,9 +1864,13 @@ footer .content {
 
     .home .box .title h1 {
         font-size: 52px;
-        line-height: 0;
+        line-height: 52px;
     }
 
+    .home .box .title span {
+        line-height: 52px;
+    }
+    
     .home .box p {
         margin: 40px 0 40px 0;
         font-size: 19px;
@@ -2192,6 +2204,7 @@ footer .content {
     .svg_1600 {display: none;}
     .svg_1400 {display: none;}
     .svg_1000 {display: block;}
+    .svg_600 {display: none;}
 
     .quick-contact {
         height: 150px;
@@ -2742,6 +2755,648 @@ footer .content {
 
     .contact .four .box p {
         font-size: 20px;
+    }
+    
+}
+
+@media (max-width: 1024px) {
+
+    .content {
+        width: 500px;
+    }
+
+    header {
+        height: 80px;
+    }
+
+    header .logo img {
+        height: 27px;
+    } 
+
+    header .menu {
+        width: 285px;
+        font-size: 12px;
+    }
+
+    header .menu ul {
+        justify-content: space-between;
+    }
+
+    footer {
+        border-top: 3px solid black;
+    }
+
+    .container {
+        width: 600px;
+    }
+
+    .svg_full {display: none;}
+    .svg_1920 {display: none;}
+    .svg_1600 {display: none;}
+    .svg_1400 {display: none;}
+    .svg_1000 {display: none;}
+    .svg_600 {display: block;}
+
+    .quick-contact {
+        height: 100px;
+    }
+
+    .quick-contact svg {
+        height: 100px;
+        right: -95px;
+    }
+
+    .quick-contact_box .facebook {
+        width: 50px;
+        height: 50px;
+    }
+
+    .quick-contact_box .tel {
+        height: 55px;
+        border-left: 3px solid white;
+        padding-left: 20px;
+        width: 400px;
+    }
+
+    .quick-contact_box .tel p:nth-of-type(1) {
+        font-size: 18px;
+    }
+
+    .quick-contact_box .tel p:nth-of-type(2) {
+        font-size: 24px;
+    }
+
+    footer {
+        height: 120px;
+    }
+
+    footer .content {
+        flex-direction: column;
+        top: 0;
+    }
+
+    .footer-left-box {
+        height: 80px;
+        padding: 0px 0;
+    }
+
+    .footer-left-box .footer-logo {
+        padding-right: 26px;
+    }
+
+    .footer-left-box .footer-logo img {
+        width: 170px;
+        object-fit: contain;
+    }
+
+    .footer-left-box .company {
+        display: flex;
+        align-items: center;
+    }
+    
+    .footer-left-box .company-box {
+        font-size: 12px;
+        padding: 0px 0px;
+    }
+
+    .footer-left-box .address {
+        display: flex;
+        align-items: center;
+    }
+    
+
+    .footer-left-box .address-box {
+        font-size: 12px;
+        padding-left: 30px;
+    }
+
+    .footer-right-box {
+        width: 100%;
+        margin-bottom: 0;
+        display: none;
+      }
+
+    .footer-right-box ul {
+        height: 75px;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    .footer-right-box li {
+        font-size: 12px;
+        margin: 0;
+        border-left: none;
+        padding-left: 0;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        padding: 0 10px;
+    }
+
+/* home */
+
+    .home section {
+        height: 400px;
+    }
+
+    .home section svg {
+        height: 400px;
+    }
+
+    .home section.one svg.svg_1, 
+    .home section.three svg.svg_1 {
+        right: -300px;
+    }
+
+    .home section.one svg.svg_2,
+    .home section.three svg.svg_2 {
+        left: 450px;
+    }
+
+    .home section.one {
+        background-size: 100%;
+        background-position-x: 80px;
+        background-position-y: 0px;     
+    }
+
+    .home section.two svg.svg_1,
+    .home section.four svg.svg_1 {
+        right: 50px;
+    }
+
+    .home section.two svg.svg_2,
+    .home section.four svg.svg_2 {
+        left: 25px;
+    }
+
+    .home section.two {
+        background-size: 105%;
+        background-position-x: -134px;
+        background-position-y: 0px;
+    }
+
+    .home section.three {
+        background-size: 120%;
+        background-position-x: 57px;        
+    }
+
+    .home section.four {
+        background-size: 100%;
+        background-position-x: -186px;
+        background-position-y: 0px;
+    }
+
+    .home .box {
+        width: 240px;
+        height: 100%;
+    }
+
+    .home .box .title {
+        margin-top: 30px;
+        padding-bottom: 18px;
+    }
+
+    .home .box .title {
+        border-bottom: 3px solid black;
+    }
+
+    .home .box.white .title {
+        border-bottom: 3px solid white;
+    }
+
+    .home .box .title h1 {
+        font-size: 28px;
+        line-height: 1;
+    }
+
+    .home .box .title h1 span {
+        line-height: 1;
+    }
+
+    .home .box p {
+        margin: 25px 0 25px 0;
+        font-size: 11px;
+    }
+
+    .home .box button {
+        font-size: 12px;
+        height: 34px;
+        width: 150px;
+    }
+    
+    /* about */
+
+    .about section {
+        height: 400px;
+    }
+
+    .about section svg {
+        position: absolute;
+        height: 400px;
+    }
+
+    .about section.three {
+        height: 300px;
+    }
+
+    .about .box h1 {
+        font-weight: 700;
+        font-size: 20px;
+        margin-bottom: 14px;
+        line-height: 1.2;
+    }
+
+    .about .box {
+        width: 220px;
+        margin-top: -20px;
+        padding-left: 20px;
+        border-left: 3px solid black;
+    }
+
+    .about .three .box {
+        width: 280px;
+        margin-top: 22px;
+    }
+
+    .about .box p {
+        font-size: 11px;
+    }
+
+    .about section .content {
+        align-items: flex-start;
+        margin-top: 50px;
+    }
+
+    .about .content.right {
+        align-items: flex-start;
+    }
+
+    .about section.two img {
+        width: 210px;
+    }
+
+    .about section.one svg.svg_1 {
+        right: -310px;
+    }
+
+    .about section.one svg.svg_2 {
+        left: 450px;
+    }
+
+    .about section.one {
+        background-size: 128%;
+        background-position-x: 64px;
+        background-position-y: 0px;
+    }
+
+    .about section.two svg.svg_1 {
+        right: 70px;
+    }
+
+    .about section.two svg.svg_2 {
+        left: 96px;
+    }
+
+    .about section.two img {
+        left: 80px;
+    }
+
+    .about section.three svg {
+        height: 300px;
+    }
+
+    .about section.three svg.svg_1 {
+        left: -345px;
+    }
+
+    .about section.three svg.svg_2 {
+        left: 166px;
+        width: 600px;
+        top: 40px;  
+    }
+
+    .about section.four svg {
+        height: 400px;
+    }
+
+    .about section.four svg.svg_1 {
+        right: 250px;
+        width: 4550px;
+    }
+
+    .about section.four svg.svg_2 {
+        left: 250px;
+    }
+
+    .about section.four .circle-image {
+        width: 150px;
+        height: 150px;
+    }
+
+    .about section.four .circle-image.left {
+        left: 260px;
+    }
+
+    .about section.four .circle-image.right {
+        left: 430px;
+    }
+
+    .about section.four .circle-image.right img {
+        scale: 1;
+        margin-left: -118px;
+        margin-top: -110px;
+    }
+
+    .about section.four .circle-image.left img {
+        scale: 1;
+        margin-left: -223px;
+        margin-top: -103px;
+    }
+
+    .about section.four {
+        left: -250px;
+    }
+
+    .about section.four .content {
+        left: 583px;
+    }
+
+    /* services */
+
+    .services .one .content {
+        align-items: flex-start;
+        margin-top: 100px;
+    }
+
+    .services .box {
+        width: 220px;
+        padding-left: 26px;
+        margin-top: -72px;
+    }
+
+    .services .box.white {
+        border-left: 3px solid white;
+    }
+
+    .services .box h1 {
+        font-size: 22px;
+        margin-bottom: 6px;
+        line-height: 42px;
+    }
+
+    .services .box p {
+        font-size: 11px;
+    }
+
+    .services .box button {
+        font-size: 21px;
+        width: 430px;
+        margin-left: 110px;
+    }
+
+    .services section.one {
+        height: 400px;
+    }
+
+    .services section svg {
+        height: 400px;
+    }
+
+    .services section.one svg.svg_1 {
+        right: -950px;
+    }
+
+    .services section.one svg.svg_2 {
+        left: 450px;
+    }
+
+    .services section.one {
+        background-size: 125%;
+        background-position-x: 76px;
+        background-position-y: -57px;
+    }
+
+    .services section.two {
+        height: 500px;
+    }
+
+    .services section.two svg {
+        height: 500px;
+    }
+
+    .services section.two svg.svg_1 {
+        right: 400px;
+        width: 4600px;
+    }
+
+    .services section.two svg.svg_2{
+        fill:black;
+        right: 280px;
+        width: 720px;
+    }
+
+    .services section.two svg.svg_3 {
+        left: 80px;
+        width: 5080px;
+    }
+
+    .services section.two {
+        background-image: linear-gradient(to bottom, rgb(0, 0, 0) 0%, rgba(0,0,0,0.7) 80%, rgba(255,255,255,0.7) 100%);
+    }
+
+    .services section.two .box {
+        width: 268px;
+    }
+
+    .services section.two .box p {
+        padding-left: 26px;
+        border-left: none;
+    }
+
+    .services .two .content.right {
+        margin-top: 77px;
+    }
+
+    .services section.two img {
+        left: -45px;
+        width: 375px;
+    }
+
+    .services section.two .circle-image {
+        width: 100px;
+        height: 100px;
+        margin: 20px 10px;
+    }
+
+    .services section.two .circle-image.right img {
+        width: 260px;
+        margin-top: -22px;
+
+    }
+
+    .services section.two .circle-image.left img {
+        width: 260px;
+        margin-left: -26px;
+    }
+
+    .services section.two .images-box {
+        margin-top: 0px;
+    }
+
+    .services section.three svg {
+        height: 450px;
+    }
+
+    .services section.three svg.svg_1 {
+        left: 130px;
+    }
+
+    .services .box button {
+        height: 34px;
+        font-size: 11px;
+        width: 222px;
+        margin-left: 42px;
+        margin-top: 8px;
+    }
+
+    .services section.three {
+        background-size: 120%;
+        background-position-x: -40px;
+        background-position-y: 0px;
+        height: 450px;
+    }
+
+    .services section.three .box {
+        width: 300px;
+        margin-top: 100px;
+    }
+
+    .services section.three .circle-image img {
+        width: 265px;
+        margin-left: -45px;
+    }
+
+    .services section.three .circle-image {
+        width: 150px;
+        height: 150px;
+        margin-top: 25px;
+    }
+
+    .portfolio section.one {
+        height: 150px;
+    }
+
+    .portfolio section.one .content {
+        height: 100%;
+    }
+
+    .portfolio section.one .text-box {
+        font-size: 11px;
+        width: 410px;
+        margin-left: 50px;
+        border-left: 3px black solid;
+        padding-left: 26px;
+        margin-top: 26px;
+    }
+
+    .portfolio section.gallery {
+        height: 620px;
+    }
+
+    .portfolio .gallery .content img {
+        height: 125px;
+        width: 28%;
+        margin: 10px;
+    }
+
+    .contact .box {
+        width: 560px;
+        padding-left: 32px;
+        margin-top: -170px;
+    }
+
+    .contact .box p {
+        font-size: 11px;
+    }
+
+    .contact .one .box p {
+        padding-right: 250px;
+    }
+
+    .contact .two .box p {
+        font-size: 12px;
+    }
+
+    .contact section.one svg {
+        height: 400px;
+    }
+
+    .contact section.one svg.svg_1 {
+        right: -150px;
+    }
+
+    .contact section.one {
+        background-size: 100%;
+        background-position-x: 75px;
+        background-position-y: 0px;
+        height: 400px;
+    }
+
+    .contact section.one svg.svg_2 {
+        left: 420px;
+    }
+
+    .contact section.two {
+        height: 250px;
+    }
+
+    .contact section.two .box {
+        width: 300px;
+        margin-bottom: 50px;
+    }
+
+    .contact section.two .box p {
+        padding-left: 28px;
+        border-left: 3px solid black;
+    }
+
+    .contact section.two img {
+        left: 40px;
+        width: 350px;
+        bottom: 185px;
+    }
+
+    .contact section.three {
+        height: 285px;
+        border-top: 4px solid black;
+        border-bottom: 4px solid black;
+    }
+
+    .contact .three .box {
+        padding-right: 25px;
+        margin-top: 0;
+    }
+
+    .contact .box {
+        border-left: none;
+    }
+
+    .contact .box h1 {
+        font-size: 24px;
+        margin-bottom: 7px;
+    }
+
+    .contact .box a {
+        font-size: 14px;
+        margin-top: 28px;
+    }
+
+    .contact section.four {
+        height: 230px;
+    }
+
+    .contact .four .box p {
+        font-size: 14px;
     }
     
 }
