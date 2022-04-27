@@ -3576,11 +3576,11 @@ footer .content {
 
     .home section.two svg.svg_2,
     .home section.four svg.svg_2 {
-        left: 25px;
+        left: 0px;
     }
 
     .home section.two {
-        background-size: 105%;
+        background-size: 135%;
         background-position-x: -134px;
         background-position-y: 0px;
     }
@@ -3597,13 +3597,23 @@ footer .content {
     }
 
     .home .box {
-        width: 240px;
+        width: 200px;
         height: 100%;
+    }
+
+    .home .box.white {
+        background-color: rgba(0,0,0,0.5);
+        box-shadow: -20px 20px 20px rgba(0,0,0,0.5);
+    }
+
+    .home .box.white p {
+        text-align: right;
     }
 
     .home .box .title {
         margin-top: 30px;
         padding-bottom: 18px;
+        
     }
 
     .home .box .title {
@@ -3612,10 +3622,11 @@ footer .content {
 
     .home .box.white .title {
         border-bottom: 3px solid white;
+        text-align: right;
     }
 
     .home .box .title h1 {
-        font-size: 28px;
+        font-size: 24px;
         line-height: 1;
     }
 
@@ -3629,9 +3640,9 @@ footer .content {
     }
 
     .home .box button {
-        font-size: 12px;
-        height: 34px;
-        width: 150px;
+        font-size: 11px;
+        height: 32px;
+        width: 130px;
     }
     
     /* about */
