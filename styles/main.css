@@ -3448,36 +3448,36 @@ footer .content {
     .svg_360 {display: block;}
 
     .quick-contact {
-        height: 100px;
+        height: 75px;
     }
 
     .quick-contact svg {
-        height: 100px;
-        right: -95px;
+        height: 75px;
+        right: -210px;
     }
 
     .quick-contact_box .facebook {
-        width: 50px;
-        height: 50px;
+        width: 35px;
+        height: 35px;
     }
 
     .quick-contact_box .tel {
-        height: 55px;
+        height: 35px;
         border-left: 3px solid white;
-        padding-left: 20px;
-        width: 400px;
+        padding-left: 16px;
+        width: 225px;
     }
 
     .quick-contact_box .tel p:nth-of-type(1) {
-        font-size: 18px;
+        font-size: 12px;
     }
 
     .quick-contact_box .tel p:nth-of-type(2) {
-        font-size: 24px;
+        font-size: 16px;
     }
 
     footer {
-        height: 120px;
+        height: 200px;
     }
 
     footer .content {
@@ -3486,17 +3486,20 @@ footer .content {
     }
 
     .footer-left-box {
-        height: 80px;
-        padding: 0px 0;
+        height: 145px;
+        padding: 0px 75px;
+        flex-direction: column;
+        align-items: flex-start;
     }
 
     .footer-left-box .footer-logo {
-        padding-right: 26px;
+        padding-right: 0;
     }
 
     .footer-left-box .footer-logo img {
-        width: 170px;
+        width: 210px;
         object-fit: contain;
+        margin-left: -35px;
     }
 
     .footer-left-box .company {
@@ -3512,12 +3515,13 @@ footer .content {
     .footer-left-box .address {
         display: flex;
         align-items: center;
+        margin-top: 6px;
     }
     
 
     .footer-left-box .address-box {
         font-size: 12px;
-        padding-left: 30px;
+        padding-left: 0;
     }
 
     .footer-right-box {
@@ -3556,6 +3560,7 @@ footer .content {
     .home section.one svg.svg_1, 
     .home section.three svg.svg_1 {
         right: -520px;
+        z-index: 2;
     }
 
     .home section.one svg.svg_2,
@@ -3591,19 +3596,24 @@ footer .content {
     }
 
     .home section.four {
-        background-size: 100%;
+        background-size: 136%;
         background-position-x: -186px;
         background-position-y: 0px;
     }
 
+    .home section.four .box {
+
+        text-align: right;
+    }
+
     .home .box {
-        width: 200px;
+        width: 195px;
         height: 100%;
     }
 
-    .home .box.white {
+    .home section.two .box.white {
         background-color: rgba(0,0,0,0.5);
-        box-shadow: -20px 20px 20px rgba(0,0,0,0.5);
+        box-shadow: -20px 20px 10px rgba(0,0,0,0.5);
     }
 
     .home .box.white p {
