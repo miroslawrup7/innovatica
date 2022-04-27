@@ -3091,7 +3091,7 @@ footer .content {
     }
 
     .about section.four svg.svg_2 {
-        left: 250px;
+        left: 235px;
     }
 
     .about section.four .circle-image {
@@ -3591,8 +3591,9 @@ footer .content {
     }
 
     .home section.three {
-        background-size: 120%;
-        background-position-x: 57px;        
+        background-size: 175%;
+        background-position-x: -50px;
+        background-position-y: -55px;    
     }
 
     .home section.four {
@@ -3613,7 +3614,7 @@ footer .content {
 
     .home section.two .box.white {
         background-color: rgba(0,0,0,0.5);
-        box-shadow: -20px 20px 10px rgba(0,0,0,0.5);
+        box-shadow: -20px 20px 20px rgba(0,0,0,0.5);
     }
 
     .home .box.white p {
@@ -3658,12 +3659,12 @@ footer .content {
     /* about */
 
     .about section {
-        height: 400px;
+        height: 300px;;
     }
 
     .about section svg {
         position: absolute;
-        height: 400px;
+        height: 300px;
     }
 
     .about section.three {
@@ -3672,25 +3673,31 @@ footer .content {
 
     .about .box h1 {
         font-weight: 700;
-        font-size: 20px;
-        margin-bottom: 14px;
+        font-size: 16px;
+        margin-bottom: 10px;
         line-height: 1.2;
     }
 
     .about .box {
-        width: 220px;
+        width: 185px;
         margin-top: -20px;
-        padding-left: 20px;
-        border-left: 3px solid black;
+        padding-left: 0;
+        border-left: none;
+    }
+
+    .about .box.y-center {
+        margin-top: 85px;
     }
 
     .about .three .box {
-        width: 280px;
-        margin-top: 22px;
+        width: 180px;
+        margin-top: 0px;
+        background-color: rgba(255,255,255,0.7);
+        box-shadow: 30px 30px 30px rgba(255,255,255,0.7);
     }
 
     .about .box p {
-        font-size: 11px;
+        font-size: 10px;
     }
 
     .about section .content {
@@ -3700,14 +3707,15 @@ footer .content {
 
     .about .content.right {
         align-items: flex-start;
+       text-align: right;
     }
 
     .about section.two img {
-        width: 210px;
+        width: 160px;
     }
 
     .about section.one svg.svg_1 {
-        right: -310px;
+        right: -520px;
     }
 
     .about section.one svg.svg_2 {
@@ -3715,9 +3723,14 @@ footer .content {
     }
 
     .about section.one {
-        background-size: 128%;
-        background-position-x: 64px;
+        background-size: 175%;
+        background-position-x: -60px;
         background-position-y: 0px;
+    }
+
+    .about section.one .box {
+        background-color: rgba(255,255,255,0.7);
+        box-shadow: 30px 30px 30px rgba(255,255,255,0.7);
     }
 
     .about section.two svg.svg_1 {
@@ -3725,11 +3738,16 @@ footer .content {
     }
 
     .about section.two svg.svg_2 {
-        left: 96px;
+        left: 0px;
+    }
+
+    .about section.two .box {
+        width: 170px;
+        border-left: none;
     }
 
     .about section.two img {
-        left: 80px;
+        left: 10px;
     }
 
     .about section.three svg {
@@ -3737,13 +3755,13 @@ footer .content {
     }
 
     .about section.three svg.svg_1 {
-        left: -345px;
+        left: -540px;
     }
 
     .about section.three svg.svg_2 {
-        left: 166px;
+        left: 0px;
         width: 600px;
-        top: 40px;  
+        top: 40px;
     }
 
     .about section.four svg {
@@ -3756,20 +3774,22 @@ footer .content {
     }
 
     .about section.four svg.svg_2 {
-        left: 250px;
+        left: 100px;
     }
 
     .about section.four .circle-image {
-        width: 150px;
-        height: 150px;
+        width: 125px;
+        height: 125px;
     }
 
     .about section.four .circle-image.left {
         left: 260px;
+        top: 217px;
     }
 
     .about section.four .circle-image.right {
-        left: 430px;
+        left: 338px;
+        top: 111px;
     }
 
     .about section.four .circle-image.right img {
@@ -3789,7 +3809,7 @@ footer .content {
     }
 
     .about section.four .content {
-        left: 583px;
+        left: 437px;
     }
 
     /* services */
@@ -3800,23 +3820,23 @@ footer .content {
     }
 
     .services .box {
-        width: 220px;
-        padding-left: 26px;
-        margin-top: -72px;
+        width: 165px;
+        padding-left: 0px;
+        margin-top: -90px;
     }
 
     .services .box.white {
-        border-left: 3px solid white;
+        border-left: none;
     }
 
     .services .box h1 {
-        font-size: 22px;
-        margin-bottom: 6px;
-        line-height: 42px;
+        font-size: 18px;
+        margin-bottom: 2px;
+        line-height: 32px;
     }
 
     .services .box p {
-        font-size: 11px;
+        font-size: 10px;
     }
 
     .services .box button {
@@ -3826,15 +3846,15 @@ footer .content {
     }
 
     .services section.one {
-        height: 400px;
+        height: 300px;
     }
 
     .services section svg {
-        height: 400px;
+        height: 300px;
     }
 
     .services section.one svg.svg_1 {
-        right: -950px;
+        right: -1370px;
     }
 
     .services section.one svg.svg_2 {
@@ -3842,32 +3862,32 @@ footer .content {
     }
 
     .services section.one {
-        background-size: 125%;
-        background-position-x: 76px;
-        background-position-y: -57px;
+        background-size: 140%;
+        background-position-x: 73px;
+        background-position-y: 0;
     }
 
     .services section.two {
-        height: 500px;
+        height: 400px;
     }
 
     .services section.two svg {
-        height: 500px;
+        height: 400px;
     }
 
     .services section.two svg.svg_1 {
-        right: 400px;
+        right: 68px;
         width: 4600px;
     }
 
     .services section.two svg.svg_2{
         fill:black;
-        right: 280px;
+        right: -52px;
         width: 720px;
     }
 
     .services section.two svg.svg_3 {
-        left: 80px;
+        left: 60px;
         width: 5080px;
     }
 
@@ -3876,7 +3896,13 @@ footer .content {
     }
 
     .services section.two .box {
-        width: 268px;
+        width: 300px;
+        text-align: right;
+        background-image: linear-gradient(to left, rgb(255, 255, 255) 0%, rgba(255, 255, 255,0.7) 60%, rgba(255,255,255,0) 100%);
+        margin-top: -65px;
+        border-left: none;
+        padding-left: 0;
+        padding-top: 10px;
     }
 
     .services section.two .box p {
@@ -3885,12 +3911,13 @@ footer .content {
     }
 
     .services .two .content.right {
-        margin-top: 77px;
+        margin-top: 66px;
     }
 
     .services section.two img {
-        left: -45px;
-        width: 375px;
+        left: -8px;
+        width: 300px;
+        top: 189px;
     }
 
     .services section.two .circle-image {
@@ -3912,10 +3939,11 @@ footer .content {
 
     .services section.two .images-box {
         margin-top: 0px;
+        display: none;
     }
 
     .services section.three svg {
-        height: 450px;
+        height: 350px;
     }
 
     .services section.three svg.svg_1 {
@@ -3927,19 +3955,23 @@ footer .content {
         font-size: 11px;
         width: 222px;
         margin-left: 42px;
-        margin-top: 8px;
+        margin-top: 5px;
+        margin-bottom: 5px;
     }
 
     .services section.three {
         background-size: 120%;
-        background-position-x: -40px;
-        background-position-y: 0px;
-        height: 450px;
+        background-position-x: 0px;
+        background-position-y: -10px;
+        height: 400px;
     }
 
     .services section.three .box {
-        width: 300px;
-        margin-top: 100px;
+        width: 184px;
+        margin-top: 130px;
+        border-left: none;
+        background-color: rgba(255,255,255,0.7);
+        box-shadow: 30px 0px 20px rgba(255,255,255,0.7);
     }
 
     .services section.three .circle-image img {
@@ -3948,8 +3980,8 @@ footer .content {
     }
 
     .services section.three .circle-image {
-        width: 150px;
-        height: 150px;
+        width: 120px;
+        height: 120px;
         margin-top: 25px;
     }
 
@@ -3962,28 +3994,28 @@ footer .content {
     }
 
     .portfolio section.one .text-box {
-        font-size: 11px;
+        font-size: 10px;
         width: 410px;
         margin-left: 50px;
-        border-left: 3px black solid;
-        padding-left: 26px;
+        border-left: none;
+        padding-left: 0;
         margin-top: 26px;
     }
 
     .portfolio section.gallery {
-        height: 620px;
+        height: 2425px;
     }
 
     .portfolio .gallery .content img {
-        height: 125px;
-        width: 28%;
+        height: 180px;
+        width: 60%;
         margin: 10px;
     }
 
     .contact .box {
-        width: 560px;
-        padding-left: 32px;
-        margin-top: -170px;
+        width: 260px;
+        padding-left: 0px;
+        margin-top: -200px;
     }
 
     .contact .box p {
@@ -3991,7 +4023,7 @@ footer .content {
     }
 
     .contact .one .box p {
-        padding-right: 250px;
+        padding-right: 80px;
     }
 
     .contact .two .box p {
@@ -4003,12 +4035,12 @@ footer .content {
     }
 
     .contact section.one svg.svg_1 {
-        right: -150px;
+        right: -280px;
     }
 
     .contact section.one {
-        background-size: 100%;
-        background-position-x: 75px;
+        background-size: 130%;
+        background-position-x: -26px;
         background-position-y: 0px;
         height: 400px;
     }
@@ -4018,7 +4050,7 @@ footer .content {
     }
 
     .contact section.two {
-        height: 250px;
+        height: 160px;
     }
 
     .contact section.two .box {
@@ -4027,25 +4059,30 @@ footer .content {
     }
 
     .contact section.two .box p {
-        padding-left: 28px;
-        border-left: 3px solid black;
+        padding-left: 0;
+        border-left: none;
     }
 
     .contact section.two img {
-        left: 40px;
-        width: 350px;
-        bottom: 185px;
+        left: 30px;
+        width: 300px;
+        bottom: 160px;
     }
 
     .contact section.three {
-        height: 285px;
-        border-top: 4px solid black;
-        border-bottom: 4px solid black;
+        height: 306px;
+        border-top: 2px solid black;
+        border-bottom: 2px solid black;
     }
 
     .contact .three .box {
         padding-right: 25px;
         margin-top: 0;
+        width: 80%;
+    }
+
+    .contact .three .content {
+        flex-direction: column;
     }
 
     .contact .box {
@@ -4053,21 +4090,24 @@ footer .content {
     }
 
     .contact .box h1 {
-        font-size: 24px;
-        margin-bottom: 7px;
+        font-size: 19px;
+        margin-bottom: -8px;
+        margin-top: 13px;
     }
 
     .contact .box a {
-        font-size: 14px;
-        margin-top: 28px;
+        font-size: 12px;
+        margin-top: 12px;
     }
 
     .contact section.four {
         height: 230px;
+        margin-left: 10px;
     }
 
     .contact .four .box p {
         font-size: 14px;
+        text-align: center;
     }
     
 }
