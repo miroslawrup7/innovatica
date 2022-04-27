@@ -91,6 +91,37 @@ header .menu ul a {
 .svg_600 {display: none;}
 .svg_360 {display: none;}
 
+
+.black-btn {
+    transition: all ease-in-out 0.1s;
+}
+
+.black-btn:hover {
+    background-color: white !important;
+    border: 2px black solid !important;
+    color: black !important;
+    cursor: pointer;
+}
+
+.black-btn:active {
+    scale: 0.9;
+}
+
+.white-btn {
+    transition: all ease-in-out 0.1s;
+}
+
+.white-btn:hover {
+    background-color: black !important;
+    border: 2px white solid !important;
+    color: white !important;
+    cursor: pointer;
+}
+
+.white-btn:active {
+    scale: 0.9;
+}
+
 /* main home */
 
 .home section {
@@ -962,6 +993,10 @@ header .menu ul a {
    padding-left: 30px;
 }
 
+.quick-contact_box .tel a {
+    color:white;
+}
+
 .quick-contact_box .tel p:nth-of-type(1) {
     font-size: 40px;
     font-weight: 600;
@@ -1042,6 +1077,10 @@ footer .content {
     padding-left: 30px;
 }
 
+.footer-right-box li a {
+    color: black;
+}
+
 /* LIGHTBOX */
 
 #lightbox {
@@ -1075,31 +1114,40 @@ footer .content {
     position: absolute;
     top: -80px;
     right: -75px;
-    font-size: 26px;
     padding: 10px;
-    width: 70px;
+  }
+
+  .close-btn img {
+    width: 80px;
   }
 
   .prev-btn {
     position: absolute;
     top: 50%;
-    left: -150px;
-    font-size: 26px;
+    left: -200px;
     padding: 30px;
-    width: 120px;
     transform: translateY(-50%);
   }
 
   .next-btn {
     position: absolute;
     top: 50%;
-    right: -150px;
-    font-size: 26px;
+    right: -200px;
     padding: 30px;
-    width: 120px;
     transform: translateY(-50%);
   }
 
+  .prev-btn img,
+  .next-btn img {
+    width: 120px;
+  }
+
+  .prev-btn img:hover,
+  .next-btn img:hover,
+  .close-btn:hover {
+    cursor: pointer;
+  }
+  
   .prev-btn.disabled,
   .next-btn.disabled {
     opacity: 0.1;
@@ -1107,7 +1155,7 @@ footer .content {
 
   .img-title p {
     color: white;
-    font-size: 24px;
+    font-size: 36px;
     text-align: center;
   }
 
@@ -1131,7 +1179,20 @@ footer .content {
         width: 4270px;
         fill: black;
         right: 330px;
-      }
+    }
+
+    .prev-btn img,
+    .next-btn img {
+      width: 100px;
+    }
+
+    .close-btn img {
+        width: 60px;
+    }
+
+    .img-title p {
+        font-size: 34px;
+    }
 
 /* home */
 
@@ -1384,6 +1445,19 @@ footer .content {
 
     .footer-right-box li {
         font-size: 24px;
+    }
+
+    .prev-btn img,
+    .next-btn img {
+      width: 80px;
+    }
+
+    .close-btn img {
+        width: 50px;
+    }
+
+    .img-title p {
+        font-size: 32px;
     }
 
 /* home */
@@ -1802,6 +1876,19 @@ footer .content {
     .footer-right-box li {
         font-size: 20px;
         margin: 6px 0;
+    }
+
+    .prev-btn img,
+    .next-btn img {
+      width: 60px;
+    }
+
+    .close-btn img {
+        width: 40px;
+    }
+
+    .img-title p {
+        font-size: 30px;
     }
 
 /* home */
@@ -2289,6 +2376,35 @@ footer .content {
         padding-left: 20px;
         width: 150px;
     }
+
+    .prev-btn img,
+    .next-btn img {
+      width: 50px;
+    }
+
+    .close-btn img {
+        width: 30px;
+    }
+
+    .img-title p {
+        font-size: 28px;
+    }
+
+    .close-btn {
+        top: 0;
+        right: -45px;
+    }
+
+    .prev-btn {
+        top: 55%;
+        left: -150px;
+    }
+
+    .next-btn {
+        top: 55%;
+        right: -150px;
+    }
+    
 
 /* home */
 
@@ -2899,6 +3015,35 @@ footer .content {
         padding: 0 10px;
     }
 
+    .prev-btn img,
+    .next-btn img {
+      width: 40px;
+    }
+
+    .close-btn img {
+        width: 26px;
+    }
+    
+    .img-title p {
+        font-size: 24px;
+    }
+
+    .close-btn {
+        top: 20px;
+        right: -45px;
+    }
+
+    .prev-btn {
+        top: 55%;
+        left: -125px;
+    }
+
+    .next-btn {
+        top: 55%;
+        right: -125px;
+    }
+    
+
 /* home */
 
     .home section {
@@ -3343,7 +3488,7 @@ footer .content {
 
     .contact section.one {
         background-size: 100%;
-        background-position-x: 75px;
+        background-position-x: 113px;
         background-position-y: 0px;
         height: 400px;
     }
@@ -3742,7 +3887,7 @@ footer .content {
     }
 
     .about section.two .box {
-        width: 170px;
+        width: 160px;
         border-left: none;
     }
 
@@ -4039,8 +4184,8 @@ footer .content {
     }
 
     .contact section.one {
-        background-size: 130%;
-        background-position-x: -26px;
+        background-size: 141%;
+        background-position-x: -12px;
         background-position-y: 0px;
         height: 400px;
     }
