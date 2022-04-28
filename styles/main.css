@@ -3658,22 +3658,6 @@ footer .content {
         align-items: flex-start;
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     .quick-contact {
         height: 75px;
     }
@@ -3835,7 +3819,7 @@ footer .content {
     }
 
     .home .box {
-        width: 195px;
+        width: 186px;
         height: 100%;
     }
 
@@ -3873,14 +3857,14 @@ footer .content {
     }
 
     .home .box p {
-        margin: 25px 0 25px 0;
+        margin: 17px 0 17px 0;
         font-size: 11px;
     }
 
     .home .box button {
-        font-size: 11px;
-        height: 32px;
-        width: 130px;
+        font-size: 10px;
+        height: 29px;
+        width: 105px;
     }
     
     /* about */
