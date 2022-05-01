@@ -3581,7 +3581,7 @@ footer .content {
     }
 
     .container {
-        width: 360px;
+        width: 100%;
     }
 
     .svg_full {display: none;}
@@ -3664,7 +3664,8 @@ footer .content {
 
     .quick-contact svg {
         height: 75px;
-        right: -210px;
+        right: 0;
+        width: 4074px;
     }
 
     .quick-contact_box .facebook {
